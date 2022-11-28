@@ -1,0 +1,150 @@
+@import 'mixin/rem';
+
+$color: red;
+$key_color: #ee343f;
+$color-dimm: rgba(0, 0, 0, 0.02);
+$wrap-padding: 1.125rem;
+$tablet-width: 768px;
+$mobile-width: 1024px;
+$pc-width: 1025px;
+
+$day-color-0: #005E59;
+$day-color-1: #F093AE;
+$day-color-2: #CC5599;
+$day-color-3: #56A485;
+$day-color-4: #F8B133;
+$day-color-5: #E2061C;
+$day-color-6: #A81B8D;
+
+$day-color: ($day-color-0, $day-color-1, $day-color-2, $day-color-3, $day-color-4, $day-color-5, $day-color-6);
+
+@mixin phonexs {
+    @media only screen 
+        and (max-device-width : 320px) {
+            @content
+        }
+}
+@mixin phone {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+/* 
+사용법
+@include mobile {
+    @include tablet {
+    }
+}
+*/
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) {
+        // .mode-mq & {
+            @content;
+        // }
+    }
+}
+  
+@mixin mobile {
+    @media (max-width: #{$mobile-width}) {
+        .mode-mq & {
+            @content;
+        }
+    }
+}
+@mixin desktop {
+    @media (min-width: #{$pc-width}) {
+        .mode-mq & {
+            @content;
+        }
+    }
+}
+
+@function translate-media-condition($c) {
+    $condMap: (
+      "screen": "only screen",
+      "print": "only print",
+      "retina": "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 120dpi)"
+    //   ">maxWidth": "(min-width: #{$mediaMaxWidth + 1})",
+    //   "<maxWidth": "(max-width: #{$mediaMaxWidth})", 		
+    //   ">bp1Width": "(min-width: #{$mediaBp1Width + 1})",
+    //   "<bp1Width": "(max-width: #{$mediaBp1Width})",
+    //   ">minWidth": "(min-width: #{$mediaMinWidth + 1})",
+    //   "<minWidth": "(max-width: #{$mediaMinWidth})"
+    );
+    @return map-get( $condMap, $c );
+}
+  
+// The mdia mixin
+@mixin media($args...) {
+    $query: "";
+    @each $arg in $args {
+        $op: "";
+        @if ( $query != "" ) {
+        $op: " and ";
+        }
+        $query: $query + $op + translate-media-condition($arg);
+    }
+    @media #{$query}  { @content; }
+}
+
+/* ----------- iPad ALL ----------- */
+
+@mixin ipadall {
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (device-aspect-ratio: 3/4) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 834px) 
+    and (max-device-width: 1112px) 
+    and (device-aspect-ratio: 3/4)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+    /* Portrait */
+    @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        @content;
+    }
+
+    /* Landscape */
+    @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        @content;
+
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+@mixin ipad {
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+/* ----------- iPad Pro 10.5" ----------- */
+
+@mixin ipadpro {
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 834px) 
+    and (max-device-width: 1112px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}

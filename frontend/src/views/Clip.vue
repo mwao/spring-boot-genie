@@ -1,0 +1,297 @@
+<template>
+    <div class="clip">
+        <div class="page">
+            <p class="p-tit">다시보기</p>
+            <div class="p-cnt">
+                <div class="fp-recom_box" v-for="(clip, index) in clipLists" :key="index" >
+                    <a href="#" class="thumb">
+                        <img :src="clip.thumbnail " :alt="clip.desc">
+                        <span class="time">{{clip.time}}</span>
+                        <span class="mask">
+                            <span class="ic"></span>
+                        </span>
+                    </a>
+                    <div class="desc">
+                        <a href="#">
+                            <span class="ellipsis">{{clip.desc}}</span>
+                            <p class="ellipsis">
+                                {{clip.desc}}<br><br>전설이 되어라, WHO IS THE KING?<br>＜킹덤(KINGDOM : LEGENDARY WAR)＞
+                            </p>
+                        </a>
+                        <span class="date">2021.06.03</span>
+                    </div>
+                </div>
+                <ul class="page-nav">
+                    <li class="disabled"><a tabindex="-1">＜＜</a></li>
+                    <li class="disabled"><a tabindex="-1">＜</a></li>
+                    <li class="current"><a tabindex="0">1</a></li>
+                    <li class=""><a tabindex="0">2</a></li>
+                    <li class=""><a tabindex="0">3</a></li>
+                    <li class=""><a tabindex="0">4</a></li>
+                    <li class=""><a tabindex="0">5</a></li>
+                    <li class=""><a tabindex="0">6</a></li>
+                    <li class=""><a tabindex="0">7</a></li>
+                    <li class=""><a tabindex="0">8</a></li>
+                    <li class=""><a tabindex="0">9</a></li>
+                    <li class=""><a tabindex="0">10</a></li>
+                    <li class="disabled"><a tabindex="0" class="">…</a></li>
+                    <li class=""><a tabindex="0">＞</a></li>
+                    <li class=""><a tabindex="0">＞＞</a></li>
+                </ul>
+            </div>
+        </div>
+        <Banner :file="require('../../public/images/banner_notice.jpg')"></Banner>
+    </div>
+</template>
+
+<script>
+import Banner from "../components/Banner.vue"
+export default {
+    components: {
+        Banner,
+    },
+    data() {
+        return {
+            clipLists: [
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/770/210770_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "04:09",
+                    desc : "[Full Cam] ♬ 소년의 일기 - 은광, 동혁, 인성, 현재, 승민, 종호 @스페셜 무대",
+                },
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/769/210769_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "04:55",
+                    desc : "[Full Cam] ♬ 피날레 (Show And Prove) - 비투비(BTOB) @파이널 경연",
+                },
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/768/210768_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "05:12",
+                    desc : "[Full Cam] ♬ KINGDOM COME - 더보이즈(THE BOYZ) @파이널 경연",
+                },
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/767/210767_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "03:53",
+                    desc : "[Full Cam] ♬ 열중쉬어 (At ease) - 아이콘(iKON) @파이널 경연",
+                },
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/770/210770_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "04:09",
+                    desc : "[Full Cam] ♬ 소년의 일기 - 은광, 동혁, 인성, 현재, 승민, 종호 @스페셜 무대",
+                },
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/769/210769_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "04:55",
+                    desc : "[Full Cam] ♬ 피날레 (Show And Prove) - 비투비(BTOB) @파이널 경연",
+                },
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/768/210768_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "05:12",
+                    desc : "[Full Cam] ♬ KINGDOM COME - 더보이즈(THE BOYZ) @파이널 경연",
+                },
+                {
+                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/767/210767_1_320x240.JPG',
+                    date: "2021.06.03",
+                    time : "03:53",
+                    desc : "[Full Cam] ♬ 열중쉬어 (At ease) - 아이콘(iKON) @파이널 경연",
+                },
+            ],
+        }
+    },
+}
+</script>
+<style lang="scss" scoped>
+.fp-recom_box {
+    width: 100%;
+    padding: 16px 0;
+    margin: 0;
+    .thumb {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        width: 180px;
+        height: 100px;
+        img{
+            width: 100%;
+            height: 100%;
+            filter: blur(0);
+            -webkit-filter: blur(0);
+            image-rendering: optimizeSpeed;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -o-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: optimize-contrast;
+            -ms-interpolation-mode: nearest-neighbor;
+            transition: transform .3s ease-in-out;
+            -webkit-transition: transform .3s ease-in-out;
+            -moz-transition: transform .3s ease-in-out;
+            vertical-align: top;
+        }
+        .time {
+            position: absolute;
+            right: 4px;
+            bottom: 4px;
+            padding: 0 4px;
+            line-height: 18px;
+            font-family: arial;
+            font-size: 11px;
+            color: #fff;
+            text-align: center;
+            background-color: rgba(0,0,0,.5);
+            min-width: 38px;
+            height: 18px;
+            border-radius: 2px;
+        }
+        .mask {
+            width: 180px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #000;
+            opacity: .1;
+            left: 0;
+        }
+    }
+    .desc {
+        overflow: hidden;
+        text-align: left;
+        margin: 0;
+        line-height: 20px;
+        display: inline-block;
+        width: 780px;
+        padding-top: 0;
+        margin-left: 20px;
+        a {
+            display: block;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            text-decoration: none;
+            font-family: Spoqa Han Sans;
+            font-size: 16px;
+            color: #27282d;
+            font-weight: 400;
+            letter-spacing: -.25px;
+            display: block;
+            max-height: 64px;
+            -webkit-box-orient: unset;
+            word-wrap: break-word;
+            overflow: visible;
+            text-overflow: unset;
+            margin: 6px 0 2px;
+            >span {
+                display: block;
+                max-height: 20px;
+                line-height: 20px;
+                font-weight: 700;
+            }
+            >p {
+                max-height: 40px;
+                font-size: 14px;
+                color: #8b8b8b;
+                line-height: 20px;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                word-wrap: break-word;
+                white-space: normal;
+                margin: 5px 0;
+            }
+            .ellipsis {
+                width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 1px;
+            }
+        }
+    }
+}
+
+.page-nav {
+    min-height: 25px;
+    text-align: center;
+    margin: 0 0 10px;
+    position: relative;
+    li {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+        text-align: center;
+        font: normal 12px/23px Tahoma,Helvetica,sans-serif;
+        color: #666;
+        border: 1px solid #ccc;
+        &:first-child {
+            background-position: 0 50%;
+        }
+        &:nth-child(2) {
+            background-position: -23px 50%;
+        }
+        &:last-child {
+            background-position: -69px 50%;
+        }
+        &:nth-last-child(2) {
+            background-position: -46px 50%;
+        }
+        &:hover {
+            border-color: #9f9f9f;
+            background-color: rgba(0,0,0,.07);
+        }
+    }
+    >li:first-child, >li:last-child, >li:nth-child(2), >li:nth-last-child(2) {
+        font: 0/0 a;
+        background-image: url(/images/pageing.gif);
+        background-repeat: no-repeat;
+    }
+    li+li {
+        margin-left: 5px;
+    }
+    .current {
+        border-color: #000;
+        font-weight: 700;
+        color: #000;
+        &:hover {
+            background-color: #fff;
+            border-color: #000;
+        }
+    }
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+}
+.page {
+    position: relative;
+    margin: 50px auto 0;
+    padding: 0 40px 40px;
+    width: 1060px;
+    background-color: #fff;
+    box-sizing: border-box;
+    .p-tit {
+        padding: 21px 0;
+        text-align: left;
+        color: #000;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: -2px;
+    }
+    .banner {
+        padding-bottom: 0 !important;
+        a {
+            cursor: default;
+            display: block;
+        }
+    }
+}
+.clip >.banner {
+    margin-top: 70px !important;
+}
+</style>

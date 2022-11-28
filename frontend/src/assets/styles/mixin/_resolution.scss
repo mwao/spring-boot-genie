@@ -1,0 +1,104 @@
+$tablet-width: 768px;
+$mobile-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@function translate-media-condition($c) {
+    $condMap: (
+      "screen": "only screen",
+      "print": "only print",
+      "retina": "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 120dpi)"
+    //   ">maxWidth": "(min-width: #{$mediaMaxWidth + 1})",
+    //   "<maxWidth": "(max-width: #{$mediaMaxWidth})", 		
+    //   ">bp1Width": "(min-width: #{$mediaBp1Width + 1})",
+    //   "<bp1Width": "(max-width: #{$mediaBp1Width})",
+    //   ">minWidth": "(min-width: #{$mediaMinWidth + 1})",
+    //   "<minWidth": "(max-width: #{$mediaMinWidth})"
+    );
+    @return map-get( $condMap, $c );
+}
+  
+// The mdia mixin
+@mixin media($args...) {
+    $query: "";
+    @each $arg in $args {
+        $op: "";
+        @if ( $query != "" ) {
+        $op: " and ";
+        }
+        $query: $query + $op + translate-media-condition($arg);
+    }
+    @media #{$query}  { @content; }
+}
+
+/* ----------- iPad ALL ----------- */
+
+@mixin ipadall {
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (device-aspect-ratio: 3/4) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 834px) 
+    and (max-device-width: 1112px) 
+    and (device-aspect-ratio: 3/4)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+    /* Portrait */
+    @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        @content;
+    }
+
+    /* Landscape */
+    @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        @content;
+
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+@mixin ipad {
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+/* ----------- iPad Pro 10.5" ----------- */
+
+@mixin ipadpro {
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 834px) 
+    and (max-device-width: 1112px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
