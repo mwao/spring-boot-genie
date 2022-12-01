@@ -1,5 +1,8 @@
 <template>
-    <div class="clip">
+    <div class="loading" >
+        <Loading />
+    </div>
+    <div class="clip" >
         <div class="page">
             <p class="p-tit">다시보기</p>
             <div class="p-cnt">
@@ -46,9 +49,10 @@
 
 <script>
 import Banner from "../components/Banner.vue"
+import Loading from "../components/Loading.vue"
 export default {
     components: {
-        Banner,
+        Banner, Loading
     },
     data() {
         return {
@@ -104,6 +108,35 @@ export default {
             ],
         }
     },
+    // mounted () {
+    //     const that = this
+    //     axios.get('http://10.184.171.116:8181/api/board/list')
+    //         .then(function (res) {
+    //             that.clipLists = res.data.data
+    //         })
+    //         .catch(function (error) {
+    //             console.log(error)
+    //         })
+
+    //     window['$']('#videoTopView').initPOCPlayer({
+    //         // memberid: 'lifestyler',
+    //         // idpath: '286840',
+    //         serviceid: 'tvn',
+    //         clipid: 'EA_206457',
+    //         isfullvod: 'N',
+    //         autoplay: 'Y',
+    //         ismobile: 'Y',
+    //         istitle: 'N',
+    //         ischarge: 'N',
+    //         ispay: 'N',
+    //         usead: 'Y',
+    //         pocVODState: 0,
+    //         // Inspection : '',
+    //         configPath: '/VOD/getFlashVodconfig',
+    //         pocVODReturn: 'http://tvn.m.tving.com/tvn/Data/ReturnVod'
+    //     })
+    // },
+
 }
 </script>
 <style lang="scss" scoped>

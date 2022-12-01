@@ -33,13 +33,20 @@ const routes = [
   },
   {
     path: '/notice',
-    name: '공지사항',
+    // name: '공지사항',
+     name: 'notice',
     component: () => import('../views/Notice.vue')
   },
   {
-    path: '/noticedetail',
-    name: '공지사항상세',
+    path: '/noticeDetail/:seq',
+    // name: '공지사항상세',
+    name: 'noticeDetail',
     component: () => import('../views/NoticeDetail.vue')
+  },
+  {
+    path: '/noticeWrite',
+    name: '/noticeWrite',
+    component: () => import('../views/NoticeWrite.vue')
   },
 ]
 

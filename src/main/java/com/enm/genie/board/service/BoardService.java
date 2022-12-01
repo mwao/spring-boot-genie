@@ -31,11 +31,12 @@ public class BoardService {
         {
             boardDTO.setProgramseq(0);
             boardDTO.setDeleteYn("N");
+            boardDAO.saveBoard(boardDTO);
         }
-        /*else //수정
+        else //수정
         {
-
-        }*/
-        boardDAO.saveBoard(boardDTO);
+            boardDAO.updateBoard(boardDTO);
+        }
     }
+
 }

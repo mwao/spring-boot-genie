@@ -14,13 +14,11 @@ public class BoardController {
     @Autowired
     private BoardService boardService;
 
-    /*게시판 리스트*/
     @GetMapping("/list")
     public List<?> boardList(@RequestParam(value = "programseq",defaultValue = "0")int param)throws Exception{
 
         return boardService.getBoardList(param);
     }
-    /*게시판 상세 */
     @GetMapping("/view")
     public BoardDTO boardView(@RequestParam(value = "boardseq",required = true)int param)throws Exception{
 

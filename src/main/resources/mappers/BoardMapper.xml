@@ -26,6 +26,7 @@
         /*boardseq,programseq,title,contents,name,delete_yn,create_date,update_date*/
         <include refid="boardColumns"></include>
         FROM genie_board
+        WHERE delete_yn="N"
         <if test='programseq != null and programseq !=0'>
             WHERE `programseq` = #{programseq}
         </if>
@@ -51,16 +52,17 @@
 <!--    </otherwise>-->
 <!--</choose>-->
     </select>
-    <insert id="saveBoard">
+    <insert id="saveBoard"  parameterType="com.enm.genie.board.dto.BoardDTO">
         insert into genie_board(programseq,title,contents,name,delete_yn,create_date,update_date)
             values(#{programseq},#{title},#{contents},#{name},#{deleteYn},NOW(),NOW())
-            on duplicate key
-            update
-                title=#{title},
-                contents=#{contents},
-                name=#{name},
-                delete_yn=#{deleteYn},
-                update_date=NOW()
 
     </insert>
+    <update id="updateBoard" parameterType="com.enm.genie.board.dto.BoardDTO">
+        update genie_board set
+            title=#{title},
+            contents=#{contents},
+            name=#{name},
+            delete_yn=#{deleteYn},
+            update_date=NOW()
+       where boardseq=#{boardseq}</update>
 </mapper>

@@ -10,54 +10,60 @@
                             <h3>&lt;킹덤 : 레전더리 워&gt; '동영상 조회 수 평가' 안내</h3>
                             <dl>
                                 <dt>작성자</dt>
-                                <dd>운영자</dd>
+                                <dd>{{boardContents.name}}</dd>
                             </dl>
                             <dl>
                                 <dt>등록일</dt>
-                                <dd>2021-04-27</dd>
+                                <dd>{{boardContents.updateDate}}</dd>
                             </dl>
                         </div>
                         <div class="board_cont ql-editor">
                             <p class="ql-align-center">
-                                <span style="color: black;">안녕하세요,</span>
+                                <span style="color: black;">{{boardContents.contents}}</span>
+<!--                                <span style="color: black;">{{seq}}</span>-->
                             </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">Mnet &lt;킹덤 : 레전더리 워&gt; 에 보내주시는 관심과 애정에 깊은 감사의 말씀 드립니다.</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">&nbsp;</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">&lt;킹덤 : 레전더리 워&gt;의 '동영상 조회수 평가' 집계와 관련해 안내 드립니다..</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">&nbsp;</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">- 동영상 조회수 평가는 유튜브 Mnet K-POP 채널(</span><a href="http://www.youtube.com/Mnet" rel="noopener noreferrer" target="_blank" style="color: black;">www.youtube.com/Mnet</a><span style="color: black;">)에게시된 '퍼포먼스 풀버전 영상' 조회수만 반영됩니다.</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">- 모든 퍼포먼스는 방송에 공개된 후 '퍼포먼스 풀버전 영상'이 업로드될 예정이며, 해당 주차 방송에 공개된 동영상에 한해 동일한 기간과 시간동안 조회수가 집계될 예정입니다.</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">- YouTube 동영상 캠페인 프로모션으로 유입된 영상 조회수 및 각종 어뷰징으로 인한 조회수는 '동영상 조회 수 평가' 집계에 포함되지 않습니다.</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">&nbsp;</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">앞으로도 &lt;킹덤 : 레전더리 워&gt;에 많은 관심 부탁드립니다.</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">&nbsp;</span>
-                            </p>
-                            <p class="ql-align-center">
-                                <span style="color: black;">감사합니다.</span>
-                            </p>
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">Mnet &lt;킹덤 : 레전더리 워&gt; 에 보내주시는 관심과 애정에 깊은 감사의 말씀 드립니다.</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">&nbsp;</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">&lt;킹덤 : 레전더리 워&gt;의 '동영상 조회수 평가' 집계와 관련해 안내 드립니다..</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">&nbsp;</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">- 동영상 조회수 평가는 유튜브 Mnet K-POP 채널(</span><a href="http://www.youtube.com/Mnet" rel="noopener noreferrer" target="_blank" style="color: black;">www.youtube.com/Mnet</a><span style="color: black;">)에게시된 '퍼포먼스 풀버전 영상' 조회수만 반영됩니다.</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">- 모든 퍼포먼스는 방송에 공개된 후 '퍼포먼스 풀버전 영상'이 업로드될 예정이며, 해당 주차 방송에 공개된 동영상에 한해 동일한 기간과 시간동안 조회수가 집계될 예정입니다.</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">- YouTube 동영상 캠페인 프로모션으로 유입된 영상 조회수 및 각종 어뷰징으로 인한 조회수는 '동영상 조회 수 평가' 집계에 포함되지 않습니다.</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">&nbsp;</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">앞으로도 &lt;킹덤 : 레전더리 워&gt;에 많은 관심 부탁드립니다.</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">&nbsp;</span>-->
+<!--                            </p>-->
+<!--                            <p class="ql-align-center">-->
+<!--                                <span style="color: black;">감사합니다.</span>-->
+<!--                            </p>-->
                         </div>
                     </div>
                     <div class="btn_wrap">
-                        <a href="javascript:void(0);" class="btn white left">목록</a>
+                        <router-link :to="{path: `/Notice`}">
+                            <a href="javascript:void(0);" class="btn white left">목록</a>
+                        </router-link>
+                      <router-link :to="{path: `/NoticeWrite`,query:{seq:this.$route.params.seq}}">
+                        <a href="javascript:void(0);" class="btn white right">수정</a>
+                      </router-link>
                     </div>
                     <div style="margin-top: 30px;">
                         <section class="reply" style="margin-bottom: 0px;">
@@ -113,7 +119,7 @@
                                     </div>
                                 </div>
                                 <div class="layer-footer">
-                                    <button type="button" title="확인" class="layer-close"><span>확인</span></button>
+                                    <button @click="showModal = false" type="button" title="확인" class="layer-close"><span>확인</span></button>
                                 </div>
                             </div>
                         </transition>
@@ -134,8 +140,18 @@ export default {
     data() {
         return {
             showModal: false,
+            boardContents:{}
         }
-    },
+    },computed:{
+      seq(){
+        return this.$route.params.seq
+      }
+    },mounted(){
+    this.axios.get('/api/board/view',{params:{boardseq:this.$route.params.seq}})
+        .then((res=>{this.boardContents=res.data; console.log(res.data);}))
+        .catch((e)=>console.log(e))
+
+  }
 }
 </script>
 <style lang="scss" scoped>

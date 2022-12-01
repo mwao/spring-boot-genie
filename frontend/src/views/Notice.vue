@@ -2,6 +2,9 @@
     <div class="notice">
         <div class="page">
             <p class="p-tit">공지사항</p>
+            <router-link :to="{path: `/NoticeWrite`,query:{seq:0}}">
+                <button class="btn-write">글쓰기</button>
+            </router-link>
             <div class="p-cnt">
                 <table class="board_tbl">
                     <caption >게시판 : 번호, 제목, 작성자, 작성일</caption>
@@ -27,34 +30,41 @@
                         </tr>
                     </thead>
                     <tbody >
-                        <tr >
-                            <td class="num">
-                                <span >2</span>
-                            </td>
-                            <td class="title">
-                                <router-link :to="{path: `/NoticeDetail`}">
-                                    <a href="javascript:void(0);">&lt;킹덤 : 레전더리 워&gt; '동영상 조회 수 평가' 안내</a>
-                                </router-link>
-                            </td>
-                            <td class="writer">운영자</td>
-                            <td >2021-04-27</td>
-                        </tr>
-                        <tr >
-                            <td class="num">
-                                <span >1</span>
-                            </td>
-                            <td class="title">
-                                <router-link :to="{path: `/NoticeDetail`}">
-                                    <a href="javascript:void(0);">2021년! 전설이 되어라! &lt;킹덤:Legendary War&gt;</a>
-                                </router-link>
-                            </td>
-                            <td class="writer">
-                                운영자
-                            </td>
-                            <td >
-                                2021-03-25
-                            </td>
-                        </tr>
+<!--                    <tr v-for="i in boardList" :key="i">{{i}}</tr>-->
+                    <tr v-for="line in boardList" v-bind:key="line.boardSeq">
+                      <td class="num"><span>{{ line.boardseq }}</span></td>
+                      <td class="title"><router-link :to="{name: 'noticeDetail', params: {seq: line.boardseq}}"><a>{{line.title}}</a></router-link></td>
+                      <td class="writer">{{line.name}}</td>
+                      <td>{{line.updateDate.substr(0,10)}}</td>
+                    </tr>
+<!--                        <tr >-->
+<!--                            <td class="num">-->
+<!--                                <span >2</span>-->
+<!--                            </td>-->
+<!--                            <td class="title">-->
+<!--                                <router-link :to="{path: `/NoticeDetail`}">-->
+<!--                                    <a href="javascript:void(0);">&lt;킹덤 : 레전더리 워&gt; '동영상 조회 수 평가' 안내</a>-->
+<!--                                </router-link>-->
+<!--                            </td>-->
+<!--                            <td class="writer">운영자</td>-->
+<!--                            <td >2021-04-27</td>-->
+<!--                        </tr>-->
+<!--                        <tr >-->
+<!--                            <td class="num">-->
+<!--                                <span >1</span>-->
+<!--                            </td>-->
+<!--                            <td class="title">-->
+<!--                                <router-link :to="{path: `/NoticeDetail`}">-->
+<!--                                    <a href="javascript:void(0);">2021년! 전설이 되어라! &lt;킹덤:Legendary War&gt;</a>-->
+<!--                                </router-link>-->
+<!--                            </td>-->
+<!--                            <td class="writer">-->
+<!--                                운영자-->
+<!--                            </td>-->
+<!--                            <td >-->
+<!--                                2021-03-25-->
+<!--                            </td>-->
+<!--                        </tr>-->
                     <!---->
                     </tbody>
                 </table>
@@ -79,11 +89,60 @@ export default {
     },
     data() {
         return {
+          boardList:[]
         }
     },
+    mounted() {
+    // const that =
+    // // axios.get('http://10.184.171.116:8181/api/board/list')
+    // this.axios.get('/api/board/list')
+    //     .then(function (res) {
+    //       // console.log(res.data);
+    //       that.boardList = res.data;
+    //        console.log(that.boardList);
+    //     })
+    //     .catch(function (error) {
+    //       console.log(error)
+    //     })
+      this.axios.get('/api/board/list')
+          .then((res=>{this.boardList=res.data; console.log(res.data);}))
+          .catch((e)=>console.log(e))
+  },
+  // pageLink(){
+  //     this.$router.push({path:'noticeWrite',query:{seq:0}})
+  // }
 }
 </script>
 <style lang="scss" scoped>
+.btn-write {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid rgb(186,191,206);
+    border-radius: 0.6em;
+    color: rgb(186,191,206);
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: .7em 1.5em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 40px 40px rgb(186,191,206) inset;
+        outline: 0;
+        color: rgba(255, 255, 255, 1);
+    }
+}
 .board_tbl {
     color: #000;
     width: 100%;
