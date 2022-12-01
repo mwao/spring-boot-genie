@@ -24,4 +24,18 @@ public class BoardService {
         BoardDTO boardView=boardDAO.getBoardView(boardseq);
         return boardView;
     }
+
+    public void saveBoard(BoardDTO boardDTO) throws Exception{
+
+        if(boardDTO.getBoardseq()==0) // 신규
+        {
+            boardDTO.setProgramseq(0);
+            boardDTO.setDeleteYn("N");
+        }
+        /*else //수정
+        {
+
+        }*/
+        boardDAO.saveBoard(boardDTO);
+    }
 }

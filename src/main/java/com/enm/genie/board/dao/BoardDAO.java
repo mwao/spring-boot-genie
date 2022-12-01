@@ -13,4 +13,6 @@ public interface BoardDAO {
     /*게시판 상세*/
     BoardDTO getBoardView(int boardseq) throws Exception;
 
+    void saveBoard(BoardDTO boardDTO) throws Exception;
+
 }

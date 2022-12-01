@@ -51,4 +51,16 @@
 <!--    </otherwise>-->
 <!--</choose>-->
     </select>
+    <insert id="saveBoard">
+        insert into genie_board(programseq,title,contents,name,delete_yn,create_date,update_date)
+            values(#{programseq},#{title},#{contents},#{name},#{deleteYn},NOW(),NOW())
+            on duplicate key
+            update
+                title=#{title},
+                contents=#{contents},
+                name=#{name},
+                delete_yn=#{deleteYn},
+                update_date=NOW()
+
+    </insert>
 </mapper>
