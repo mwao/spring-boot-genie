@@ -52,7 +52,7 @@ const routes = [
 
 //VueRouter에 route를 등록하고 설정
 const router = createRouter({
-  // mode: 'history',
+  mode: 'history',
   // base: process.env.BASE_URL,
   history: createWebHistory(),
   routes,
