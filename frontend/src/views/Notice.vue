@@ -69,11 +69,11 @@
                     </tbody>
                 </table>
                 <ul data-v-a3273838="" class="page-nav" style="margin-top: 30px;">
-                    <li class="disabled"><a tabindex="-1">＜＜</a></li>
-                    <li class="disabled"><a tabindex="-1">＜</a></li>
-                    <li class="current"><a tabindex="0">1</a></li>
-                    <li class="disabled"><a tabindex="-1">＞</a></li>
-                    <li class="disabled"><a tabindex="-1">＞＞</a></li>
+                    <li class="disabled "><a tabindex="-1" class="page-btn" id="1" @click.stop="pageBtn(1)">＜＜</a></li>
+                    <li class="disabled"><a tabindex="-1" class="page-btn" :id="this.prePage" @click.stop="pageBtn(this.prePage)">＜</a></li>
+                    <li v-for="item in navigatepageNums" :key="item" :class="[item===this.pageNum?'current':'disabled']"><a tabindex="0" :id="item" @click.stop="pageBtn(item)">{{ item }}</a></li>
+                    <li class="disabled"><a tabindex="-1" class="page-btn" :id="this.nextPage"  @click.stop="pageBtn(this.nextPage)">＞</a></li>
+                    <li class="disabled"><a tabindex="-1" class="page-btn" :id="this.navigateLastPage" @click.stop="pageBtn(this.navigateLastPage)">＞＞</a></li>
                 </ul>
             </div>
         </div>
@@ -89,25 +89,91 @@ export default {
     },
     data() {
         return {
-          boardList:[]
+          boardList:[],
+          pageNum:1,
+          size:5,
+          pages:1, // 총 페이지
+          prePage:0,
+          nextPage:2,
+          navigatepageNums:[], // 총 페이지 어레이
+          navigateLastPage:1, //마지막 페이지 넘버
+          isLastPage:true,
+          pageArray:[] // 변형 어레이
         }
     },
     mounted() {
-    // const that =
-    // // axios.get('http://10.184.171.116:8181/api/board/list')
-    // this.axios.get('/api/board/list')
-    //     .then(function (res) {
-    //       // console.log(res.data);
-    //       that.boardList = res.data;
-    //        console.log(that.boardList);
-    //     })
-    //     .catch(function (error) {
-    //       console.log(error)
-    //     })
-      this.axios.get('/api/board/list')
+      /*this.axios.get('/api/board/list')
           .then((res=>{this.boardList=res.data; console.log(res.data);}))
+          .catch((e)=>console.log(e))*/
+      this.loadPage(this.pageNum,true);
+      /*
+      const params={pageNum:this.pageNum,pageSize:this.size}
+      console.log(params);
+      this.axios.get("/api/board/pagetest",{params})
+          .then((res)=>{
+            this.boardList=res.data.list;
+            this.navigatepageNums=this.calPages(res.data.pages);
+            this.prePage=res.data.prePage;
+            this.nextPage=res.data.nextPage;
+            this.navigateLastPage=res.data.navigateLastPage;
+             console.log(res.data);
+           /!* console.log(res.data.list)*!/})
+          .catch((e)=>console.log(e))*/
+
+  },methods:{
+      calPages(){
+        var array=new Array();
+        for(var i =0;i<this.pages;i++) {
+          array.push(i+1)
+        }
+        return array;
+      },
+      // pageArrayCal(param){
+      //   var array=new Array();
+      //   var a=Math.trunc((param)/(this.size+1));
+      //    console.log("a: "+a);
+      //
+      //   for(var i =0;i<a;i++) {
+      //     array.push(i+1)
+      //   }
+      //   return array;
+      // },
+      pageBtn(param){
+      if(param!==this.pageNum) {
+        // console.log("param: "+param);
+        // console.log("this.pageNum: "+this.pageNum);
+        this.loadPage(param,false);
+        console.log("pageBtn: "+param);
+      }
+    },
+    loadPage(param,first) {
+      const params={pageNum:param,pageSize:this.size}
+      //console.log(params);
+      if(first){
+        this.axios.get("/api/board/pagetest",{params})
+            .then((res)=>{
+              this.boardList=res.data.list;
+              this.pages=res.data.pages;
+              this.navigatepageNums=this.calPages();
+              this.prePage=res.data.prePage;
+              this.nextPage=res.data.nextPage;
+              this.navigateLastPage=res.data.navigateLastPage;
+              this.pageNum=res.data.pageNum;
+            })``
+            .catch((e)=>console.log(e))
+      }else{
+      this.axios.get("/api/board/pagetest",{params})
+          .then((res)=>{
+            this.boardList=res.data.list;
+            this.prePage=res.data.prePage;
+            this.nextPage=res.data.nextPage;
+            this.pageNum=res.data.pageNum;
+            console.log(res.data);
+            /*console.log(res.data.list)*/})
           .catch((e)=>console.log(e))
-  },
+      }
+    }
+  }
   // pageLink(){
   //     this.$router.push({path:'noticeWrite',query:{seq:0}})
   // }

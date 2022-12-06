@@ -70,7 +70,7 @@ export default {
     methods: {
         handleScroll () {
             let st = window.pageYOffset || document.documentElement.scrollTop
-            console.log('scrolling..', st, this.$refs)
+            // console.log('scrolling..', st, this.$refs)
             let navEl = this.$refs.nav
 
             if (navEl.offsetTop < st) {

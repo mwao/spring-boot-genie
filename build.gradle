@@ -28,6 +28,18 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+
+	// Cache 관련
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-cache
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-cache'
+	// https://mvnrepository.com/artifact/org.ehcache/ehcache
+	compile group: 'org.ehcache', name: 'ehcache', version: '3.8.0'
+	// https://mvnrepository.com/artifact/javax.cache/cache-api
+	compile group: 'javax.cache', name: 'cache-api', version: '1.1.1'
+
+	// Paging 관련
+	// https://mavenlibs.com/maven/dependency/com.github.pagehelper/pagehelper-spring-boot-starter
+	implementation 'com.github.pagehelper:pagehelper-spring-boot-starter:1.4.6'
 }
 
 test {

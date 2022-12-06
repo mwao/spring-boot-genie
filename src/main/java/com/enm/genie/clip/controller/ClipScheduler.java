@@ -41,6 +41,7 @@ public class ClipScheduler {
 
         log.info("now: "+strDate);
         log.info("youtube api call 결과 : "+result.toString());
+
     }
 
 }
