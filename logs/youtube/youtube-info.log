@@ -2698,3 +2698,363 @@
 [2022-12-11 23:54:03:23527][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크/예고] 비하인드부터 원앤온리 ★컴백쇼★ 까지! 풀코스로 준비완료!#KINGDOMWEEK: NO+ EP.0
 [2022-12-11 23:54:03:23527][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/4-eaZwMtvX8/sddefault.jpg
 [2022-12-11 23:54:03:23527][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=4-eaZwMtvX8
+[2022-12-12 01:01:28:15393][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : JlIfPogZ-No
+[2022-12-12 01:01:28:15394][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [최초 공개] ♬ 소리꾼 - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:28:15394][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/JlIfPogZ-No/sddefault.jpg
+[2022-12-12 01:01:28:15395][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=JlIfPogZ-No
+[2022-12-12 01:01:28:15395][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : LIXiwwtv2ds
+[2022-12-12 01:01:28:15395][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] 녹음현장부터 뮤비 촬영현장까지! {NOEASY} Making Live !#KINGDOMWEEK: NO+ EP.7 | Mnet 210823 방송
+[2022-12-12 01:01:28:15395][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/LIXiwwtv2ds/sddefault.jpg
+[2022-12-12 01:01:28:15395][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=LIXiwwtv2ds
+[2022-12-12 01:01:28:15396][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : MUAui1n8OEU
+[2022-12-12 01:01:28:15396][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] ♬ 잘 하고 있어 - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:28:15396][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/MUAui1n8OEU/sddefault.jpg
+[2022-12-12 01:01:28:15396][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=MUAui1n8OEU
+[2022-12-12 01:01:28:15396][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 0lROhj6OqFY
+[2022-12-12 01:01:28:15396][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] 스테이에게 찾아온 시련?! {벌스테이 카페}만의 '아주 특별한' 메뉴 주문법#KINGDOMWEEK: NO+ EP.7 | Mnet 210823 방송
+[2022-12-12 01:01:28:15397][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/0lROhj6OqFY/sddefault.jpg
+[2022-12-12 01:01:28:15397][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=0lROhj6OqFY
+[2022-12-12 01:01:28:15397][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : PKiX6nl4zNU
+[2022-12-12 01:01:28:15398][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [최초 공개] ♬ The View - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:28:15398][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/PKiX6nl4zNU/sddefault.jpg
+[2022-12-12 01:01:28:15398][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=PKiX6nl4zNU
+[2022-12-12 01:01:28:15398][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 8R-tYJPDCxI
+[2022-12-12 01:01:28:15398][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : ♬ WOLFGANG - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:28:15399][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/8R-tYJPDCxI/sddefault.jpg
+[2022-12-12 01:01:28:15399][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=8R-tYJPDCxI
+[2022-12-12 01:01:28:15399][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : cY5Cf0C7PBQ
+[2022-12-12 01:01:28:15399][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [예고/6회] SKZ PICK! 입덕 보장 스테이지 {NONSTOP}#KINGDOMWEEK: NO+ EP.6
+[2022-12-12 01:01:28:15399][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/cY5Cf0C7PBQ/sddefault.jpg
+[2022-12-12 01:01:28:15399][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=cY5Cf0C7PBQ
+[2022-12-12 01:01:28:15399][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : -I3VEv1hhaU
+[2022-12-12 01:01:28:15400][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '(극대노)이게 멤버냐?!' 정체확인의 순간! 머니캐처는 누구?#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:28:15400][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/-I3VEv1hhaU/sddefault.jpg
+[2022-12-12 01:01:28:15400][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=-I3VEv1hhaU
+[2022-12-12 01:01:28:15400][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 4eBqg3zJhJM
+[2022-12-12 01:01:28:15401][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] "그대는 나의 처음이자..중간이자..마지막이오.." by 현진#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:28:15402][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/4eBqg3zJhJM/sddefault.jpg
+[2022-12-12 01:01:28:15402][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=4eBqg3zJhJM
+[2022-12-12 01:01:28:15402][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : j6ImuMGkLTs
+[2022-12-12 01:01:28:15402][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '행복용복' 필릭스를 향한 순도 100%의 믿음#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/j6ImuMGkLTs/sddefault.jpg
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=j6ImuMGkLTs
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : CNFWE1kLUOo
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '혼돈의 카오스' 승민이 쏘아올린 폭탄발언#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/CNFWE1kLUOo/sddefault.jpg
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=CNFWE1kLUOo
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : pFgBPwKQ79M
+[2022-12-12 01:01:28:15403][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '창빈 형 어머님 사랑해요!!' 가족들과의 작전을 미션 성공!#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:28:15404][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/pFgBPwKQ79M/sddefault.jpg
+[2022-12-12 01:01:28:15404][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=pFgBPwKQ79M
+[2022-12-12 01:01:28:15404][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : DOTkDgmaYaU
+[2022-12-12 01:01:28:15404][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '맥락없는 모닝 TMI' {버디캐처} 기상 미션!#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:28:15404][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/DOTkDgmaYaU/sddefault.jpg
+[2022-12-12 01:01:28:15404][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=DOTkDgmaYaU
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : gpOzuXypCAY
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회/예고] SKZ 우정 워크숍 {버디캐처} 대망의 최종 선택!#KINGDOMWEEK: NO+ EP.5
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/gpOzuXypCAY/sddefault.jpg
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=gpOzuXypCAY
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : -5yWtQWqCKU
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '찐친 1인' {버디캐처} 중간 선택의 시간#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/-5yWtQWqCKU/sddefault.jpg
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=-5yWtQWqCKU
+[2022-12-12 01:01:28:15405][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : k-XfAKPB8NM
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '각양각색 잠옷의 향연' 룸메이트 잠옷 바꿔입기#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/k-XfAKPB8NM/sddefault.jpg
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=k-XfAKPB8NM
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : s1RTUvISiBw
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '끊임 없는 의심' 억울한 버디캐처? or 열연 중인 머니캐처?#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/s1RTUvISiBw/sddefault.jpg
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=s1RTUvISiBw
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : oCtJMPH93Bk
+[2022-12-12 01:01:28:15406][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '너 나 버리는거야?' 룸메시그널 중 벌어진 사랑과 전쟁#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:28:15407][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/oCtJMPH93Bk/sddefault.jpg
+[2022-12-12 01:01:28:15407][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=oCtJMPH93Bk
+[2022-12-12 01:01:28:15407][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : RKJRbjUcjq0
+[2022-12-12 01:01:28:15407][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] 4회] '맞는 것 같은데..?' 힌트 영상을 확인하는 승민과 아이엔#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:28:15407][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/RKJRbjUcjq0/sddefault.jpg
+[2022-12-12 01:01:28:15407][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=RKJRbjUcjq0
+[2022-12-12 01:01:28:15407][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : VzKTN6OlXC0
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '물총 : 레전더리 워' 코끼리노 vs 소이엔, 최후의 승자는?!#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/VzKTN6OlXC0/sddefault.jpg
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=VzKTN6OlXC0
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : im1GFxt4Q-w
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [예고/4회] '좀 솔직해져봐' 파국으로 치닫는 우정 워크숍 {버디캐쳐}#KINGDOMWEEK: NO+ EP.4
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/im1GFxt4Q-w/sddefault.jpg
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=im1GFxt4Q-w
+[2022-12-12 01:01:28:15408][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : WTeWNE6M3x0
+[2022-12-12 01:01:28:15409][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '뽁데렐라 컴백' 그대에게 물총을 -결승전-#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:28:15409][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/WTeWNE6M3x0/sddefault.jpg
+[2022-12-12 01:01:28:15409][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=WTeWNE6M3x0
+[2022-12-12 01:01:28:15409][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : xOMlXhrViP8
+[2022-12-12 01:01:28:15409][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회]'SKZ 최강 하체' 멤버들 견인하는 코끼리노#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:28:15409][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/xOMlXhrViP8/sddefault.jpg
+[2022-12-12 01:01:28:15410][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=xOMlXhrViP8
+[2022-12-12 01:01:28:15410][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : TsUPSezNH3I
+[2022-12-12 01:01:28:15410][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '솟아나라 힘!!' 한의 파트너가 되기 위한 스쿼트 배틀#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:28:15410][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/TsUPSezNH3I/sddefault.jpg
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=TsUPSezNH3I
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : U_5PqjS2gt4
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '후웅(^3^)♡' 아찔한 큐트 어택과 뜻 밖의 듀엣 공연#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/U_5PqjS2gt4/sddefault.jpg
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=U_5PqjS2gt4
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : z_f81yVkY6o
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '엄마 찬스 되나요?' {SKZ 버디캐처} 정체 뽑기#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/z_f81yVkY6o/sddefault.jpg
+[2022-12-12 01:01:28:15411][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=z_f81yVkY6o
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : Qb93hgx7rhY
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '소문난 금슬(?) 맛집' 슼둥가족 부부 지성♥현진#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/Qb93hgx7rhY/sddefault.jpg
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=Qb93hgx7rhY
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : x_8kICmYI0U
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [예고/3회] '(의심)나 안해!!!(불신)' 스릴 넘치는 SKZ 우정 워크숍#KINGDOMWEEK: NO+ EP.3
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/x_8kICmYI0U/sddefault.jpg
+[2022-12-12 01:01:28:15412][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=x_8kICmYI0U
+[2022-12-12 01:01:28:15413][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : UmZeIxVchqI
+[2022-12-12 01:01:28:15413][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] 'STAY 사랑해!' 스키즈의 힘이자 이유, 스테이#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:28:15413][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/UmZeIxVchqI/sddefault.jpg
+[2022-12-12 01:01:28:15413][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=UmZeIxVchqI
+[2022-12-12 01:01:28:15413][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : PWx-Y0W3zhQ
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '칭찬 감옥에 가두자!' 스키즈 1호 팬은 스키즈#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/PWx-Y0W3zhQ/sddefault.jpg
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=PWx-Y0W3zhQ
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : nHPQRr02t5U
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '알콩♡달콩' 이게 바로 절친의 티키타카 @킹덤#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/nHPQRr02t5U/sddefault.jpg
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=nHPQRr02t5U
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : uU9KLGb8EeU
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '달콤살벌' 평소_리노_썰_푼다.SSUL#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:28:15414][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/uU9KLGb8EeU/sddefault.jpg
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=uU9KLGb8EeU
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : lybbHTa8HLI
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '어후우 미안해요!↗' 각성 후, 저세상 고음을 얻은 한#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/lybbHTa8HLI/sddefault.jpg
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=lybbHTa8HLI
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : LJPaJExxX7k
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '휴식은 사치!' 흥키즈표 걸그룹 안무 대기실 공연#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/LJPaJExxX7k/sddefault.jpg
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=LJPaJExxX7k
+[2022-12-12 01:01:28:15415][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 03dJSKOOZv4
+[2022-12-12 01:01:28:15416][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '라이언 형님♥' 상상도 못한 ㄴ(ㅇ0ㅇ)ㄱ {신뚜두뚜두} 반응#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:28:15416][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/03dJSKOOZv4/sddefault.jpg
+[2022-12-12 01:01:28:15416][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=03dJSKOOZv4
+[2022-12-12 01:01:28:15416][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : mKRvuLuBv90
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '美친 디테일' 멤버들도 몰랐던 악마의 비밀#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/mKRvuLuBv90/sddefault.jpg
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=mKRvuLuBv90
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : AIvOXuyR58I
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '아이가..있었는데요..없었습니다..?' 무대를 빛낸 민준♥#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/AIvOXuyR58I/sddefault.jpg
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=AIvOXuyR58I
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : CnDGwEsEiSw
+[2022-12-12 01:01:28:15417][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] 2차 경연 {기도} 스토리의 비밀 (feat. 호기심KING 주학년)#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/CnDGwEsEiSw/sddefault.jpg
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=CnDGwEsEiSw
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 6GXXaoXKa44
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '아슬아슬하다..' 복잡한 동선에 초조한 방찬#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/6GXXaoXKa44/sddefault.jpg
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=6GXXaoXKa44
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : RGolytwDNtA
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '(힝)너무 불안했다구(T_T)' 승민이 무대에 집중하지 못한 이유#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/RGolytwDNtA/sddefault.jpg
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=RGolytwDNtA
+[2022-12-12 01:01:28:15418][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : a-KGWXueV7Q
+[2022-12-12 01:01:28:15419][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회]'준비 됐어?' 스페셜 요원 필릭스가 전하는 '킹덤위크'#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:28:15419][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/a-KGWXueV7Q/sddefault.jpg
+[2022-12-12 01:01:28:15419][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=a-KGWXueV7Q
+[2022-12-12 01:01:28:15419][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : ym_s69mCCv8
+[2022-12-12 01:01:28:15419][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크 D-1] #슼망진창 #허당키즈 #킹덤위크_모먼트#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:28:15419][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/ym_s69mCCv8/sddefault.jpg
+[2022-12-12 01:01:28:15419][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=ym_s69mCCv8
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : I89ANct6HLQ
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크 D-2] #장꾸와_멋짐_사이 #반전키즈 #킹덤위크_모먼트#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/I89ANct6HLQ/sddefault.jpg
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=I89ANct6HLQ
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : q3bCKeheLeI
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크 D-3] #흥신흥왕 #흥키즈 #킹덤위크_모먼트#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/q3bCKeheLeI/sddefault.jpg
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=q3bCKeheLeI
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 4-eaZwMtvX8
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크/예고] 비하인드부터 원앤온리 ★컴백쇼★ 까지! 풀코스로 준비완료!#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/4-eaZwMtvX8/sddefault.jpg
+[2022-12-12 01:01:28:15420][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=4-eaZwMtvX8
+[2022-12-12 01:01:32:19166][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : JlIfPogZ-No
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [최초 공개] ♬ 소리꾼 - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/JlIfPogZ-No/sddefault.jpg
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=JlIfPogZ-No
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : LIXiwwtv2ds
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] 녹음현장부터 뮤비 촬영현장까지! {NOEASY} Making Live !#KINGDOMWEEK: NO+ EP.7 | Mnet 210823 방송
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/LIXiwwtv2ds/sddefault.jpg
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=LIXiwwtv2ds
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : MUAui1n8OEU
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] ♬ 잘 하고 있어 - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/MUAui1n8OEU/sddefault.jpg
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=MUAui1n8OEU
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 0lROhj6OqFY
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] 스테이에게 찾아온 시련?! {벌스테이 카페}만의 '아주 특별한' 메뉴 주문법#KINGDOMWEEK: NO+ EP.7 | Mnet 210823 방송
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/0lROhj6OqFY/sddefault.jpg
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=0lROhj6OqFY
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : PKiX6nl4zNU
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [최초 공개] ♬ The View - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/PKiX6nl4zNU/sddefault.jpg
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=PKiX6nl4zNU
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 8R-tYJPDCxI
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : ♬ WOLFGANG - 스트레이 키즈(Stray Kids) | 스트레이키즈 컴백쇼 {NOEASY}
+[2022-12-12 01:01:32:19167][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/8R-tYJPDCxI/sddefault.jpg
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=8R-tYJPDCxI
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : cY5Cf0C7PBQ
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [예고/6회] SKZ PICK! 입덕 보장 스테이지 {NONSTOP}#KINGDOMWEEK: NO+ EP.6
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/cY5Cf0C7PBQ/sddefault.jpg
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=cY5Cf0C7PBQ
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : -I3VEv1hhaU
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '(극대노)이게 멤버냐?!' 정체확인의 순간! 머니캐처는 누구?#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/-I3VEv1hhaU/sddefault.jpg
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=-I3VEv1hhaU
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 4eBqg3zJhJM
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] "그대는 나의 처음이자..중간이자..마지막이오.." by 현진#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/4eBqg3zJhJM/sddefault.jpg
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=4eBqg3zJhJM
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : j6ImuMGkLTs
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '행복용복' 필릭스를 향한 순도 100%의 믿음#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/j6ImuMGkLTs/sddefault.jpg
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=j6ImuMGkLTs
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : CNFWE1kLUOo
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '혼돈의 카오스' 승민이 쏘아올린 폭탄발언#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/CNFWE1kLUOo/sddefault.jpg
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=CNFWE1kLUOo
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : pFgBPwKQ79M
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '창빈 형 어머님 사랑해요!!' 가족들과의 작전을 미션 성공!#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:32:19168][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/pFgBPwKQ79M/sddefault.jpg
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=pFgBPwKQ79M
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : DOTkDgmaYaU
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회] '맥락없는 모닝 TMI' {버디캐처} 기상 미션!#KINGDOMWEEK: NO+ EP.5 | Mnet 210821 방송
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/DOTkDgmaYaU/sddefault.jpg
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=DOTkDgmaYaU
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : gpOzuXypCAY
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [5회/예고] SKZ 우정 워크숍 {버디캐처} 대망의 최종 선택!#KINGDOMWEEK: NO+ EP.5
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/gpOzuXypCAY/sddefault.jpg
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=gpOzuXypCAY
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : -5yWtQWqCKU
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '찐친 1인' {버디캐처} 중간 선택의 시간#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/-5yWtQWqCKU/sddefault.jpg
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=-5yWtQWqCKU
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : k-XfAKPB8NM
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '각양각색 잠옷의 향연' 룸메이트 잠옷 바꿔입기#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/k-XfAKPB8NM/sddefault.jpg
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=k-XfAKPB8NM
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : s1RTUvISiBw
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '끊임 없는 의심' 억울한 버디캐처? or 열연 중인 머니캐처?#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/s1RTUvISiBw/sddefault.jpg
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=s1RTUvISiBw
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : oCtJMPH93Bk
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '너 나 버리는거야?' 룸메시그널 중 벌어진 사랑과 전쟁#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/oCtJMPH93Bk/sddefault.jpg
+[2022-12-12 01:01:32:19169][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=oCtJMPH93Bk
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : RKJRbjUcjq0
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] 4회] '맞는 것 같은데..?' 힌트 영상을 확인하는 승민과 아이엔#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/RKJRbjUcjq0/sddefault.jpg
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=RKJRbjUcjq0
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : VzKTN6OlXC0
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [4회] '물총 : 레전더리 워' 코끼리노 vs 소이엔, 최후의 승자는?!#KINGDOMWEEK: NO+ EP.4 | Mnet 210820 방송
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/VzKTN6OlXC0/sddefault.jpg
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=VzKTN6OlXC0
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : im1GFxt4Q-w
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [예고/4회] '좀 솔직해져봐' 파국으로 치닫는 우정 워크숍 {버디캐쳐}#KINGDOMWEEK: NO+ EP.4
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/im1GFxt4Q-w/sddefault.jpg
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=im1GFxt4Q-w
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : WTeWNE6M3x0
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '뽁데렐라 컴백' 그대에게 물총을 -결승전-#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/WTeWNE6M3x0/sddefault.jpg
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=WTeWNE6M3x0
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : xOMlXhrViP8
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회]'SKZ 최강 하체' 멤버들 견인하는 코끼리노#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/xOMlXhrViP8/sddefault.jpg
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=xOMlXhrViP8
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : TsUPSezNH3I
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '솟아나라 힘!!' 한의 파트너가 되기 위한 스쿼트 배틀#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/TsUPSezNH3I/sddefault.jpg
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=TsUPSezNH3I
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : U_5PqjS2gt4
+[2022-12-12 01:01:32:19170][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '후웅(^3^)♡' 아찔한 큐트 어택과 뜻 밖의 듀엣 공연#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/U_5PqjS2gt4/sddefault.jpg
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=U_5PqjS2gt4
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : z_f81yVkY6o
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '엄마 찬스 되나요?' {SKZ 버디캐처} 정체 뽑기#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/z_f81yVkY6o/sddefault.jpg
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=z_f81yVkY6o
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : Qb93hgx7rhY
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [3회] '소문난 금슬(?) 맛집' 슼둥가족 부부 지성♥현진#KINGDOMWEEK: NO+ EP.3 | Mnet 210819 방송
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/Qb93hgx7rhY/sddefault.jpg
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=Qb93hgx7rhY
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : x_8kICmYI0U
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [예고/3회] '(의심)나 안해!!!(불신)' 스릴 넘치는 SKZ 우정 워크숍#KINGDOMWEEK: NO+ EP.3
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/x_8kICmYI0U/sddefault.jpg
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=x_8kICmYI0U
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : UmZeIxVchqI
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] 'STAY 사랑해!' 스키즈의 힘이자 이유, 스테이#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/UmZeIxVchqI/sddefault.jpg
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=UmZeIxVchqI
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : PWx-Y0W3zhQ
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '칭찬 감옥에 가두자!' 스키즈 1호 팬은 스키즈#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/PWx-Y0W3zhQ/sddefault.jpg
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=PWx-Y0W3zhQ
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : nHPQRr02t5U
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '알콩♡달콩' 이게 바로 절친의 티키타카 @킹덤#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/nHPQRr02t5U/sddefault.jpg
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=nHPQRr02t5U
+[2022-12-12 01:01:32:19171][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : uU9KLGb8EeU
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '달콤살벌' 평소_리노_썰_푼다.SSUL#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/uU9KLGb8EeU/sddefault.jpg
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=uU9KLGb8EeU
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : lybbHTa8HLI
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '어후우 미안해요!↗' 각성 후, 저세상 고음을 얻은 한#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/lybbHTa8HLI/sddefault.jpg
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=lybbHTa8HLI
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : LJPaJExxX7k
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [2회] '휴식은 사치!' 흥키즈표 걸그룹 안무 대기실 공연#KINGDOMWEEK: NO+ EP.2 | Mnet 210818 방송
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/LJPaJExxX7k/sddefault.jpg
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=LJPaJExxX7k
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 03dJSKOOZv4
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '라이언 형님♥' 상상도 못한 ㄴ(ㅇ0ㅇ)ㄱ {신뚜두뚜두} 반응#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/03dJSKOOZv4/sddefault.jpg
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=03dJSKOOZv4
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : mKRvuLuBv90
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '美친 디테일' 멤버들도 몰랐던 악마의 비밀#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/mKRvuLuBv90/sddefault.jpg
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=mKRvuLuBv90
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : AIvOXuyR58I
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '아이가..있었는데요..없었습니다..?' 무대를 빛낸 민준♥#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/AIvOXuyR58I/sddefault.jpg
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=AIvOXuyR58I
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : CnDGwEsEiSw
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] 2차 경연 {기도} 스토리의 비밀 (feat. 호기심KING 주학년)#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/CnDGwEsEiSw/sddefault.jpg
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=CnDGwEsEiSw
+[2022-12-12 01:01:32:19172][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 6GXXaoXKa44
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '아슬아슬하다..' 복잡한 동선에 초조한 방찬#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/6GXXaoXKa44/sddefault.jpg
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=6GXXaoXKa44
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : RGolytwDNtA
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회] '(힝)너무 불안했다구(T_T)' 승민이 무대에 집중하지 못한 이유#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/RGolytwDNtA/sddefault.jpg
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=RGolytwDNtA
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : a-KGWXueV7Q
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [1회]'준비 됐어?' 스페셜 요원 필릭스가 전하는 '킹덤위크'#KINGDOMWEEK: NO+ EP.1 | Mnet 210817 방송
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/a-KGWXueV7Q/sddefault.jpg
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=a-KGWXueV7Q
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : ym_s69mCCv8
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크 D-1] #슼망진창 #허당키즈 #킹덤위크_모먼트#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/ym_s69mCCv8/sddefault.jpg
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=ym_s69mCCv8
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : I89ANct6HLQ
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크 D-2] #장꾸와_멋짐_사이 #반전키즈 #킹덤위크_모먼트#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/I89ANct6HLQ/sddefault.jpg
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=I89ANct6HLQ
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : q3bCKeheLeI
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크 D-3] #흥신흥왕 #흥키즈 #킹덤위크_모먼트#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/q3bCKeheLeI/sddefault.jpg
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=q3bCKeheLeI
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video id : 4-eaZwMtvX8
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video title : [ENG] [킹덤위크/예고] 비하인드부터 원앤온리 ★컴백쇼★ 까지! 풀코스로 준비완료!#KINGDOMWEEK: NO+ EP.0
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video thumbnail : https://i.ytimg.com/vi/4-eaZwMtvX8/sddefault.jpg
+[2022-12-12 01:01:32:19173][http-nio-8282-exec-1] INFO  c.e.g.y.service.YoutubeService - video playUrl : https://www.youtube.com/watch?v=4-eaZwMtvX8

@@ -22,3 +22,6 @@
 [2022-12-12 00:17:57:240999][http-nio-8282-exec-7] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
 [2022-12-12 00:18:03:246766][http-nio-8282-exec-9] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
 [2022-12-12 00:18:08:251569][http-nio-8282-exec-10] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
+[2022-12-12 01:13:11:105512][http-nio-8282-exec-10] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
+[2022-12-12 01:13:13:106731][http-nio-8282-exec-8] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
+[2022-12-12 01:17:08:342160][http-nio-8282-exec-9] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController

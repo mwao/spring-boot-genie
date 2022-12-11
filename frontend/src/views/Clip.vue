@@ -145,7 +145,8 @@ export default {
               this.navigatepageNums=this.calPages();
               this.prePage=res.data.prePage;
               this.nextPage=res.data.nextPage;
-              this.navigateLastPage=res.data.navigateLastPage;
+              this.navigateLastPage=res.data.pages;
+              console.log("navigateLastPage: "+this.navigateLastPage );
               this.pageNum=res.data.pageNum;
               console.log(this.Lists);
               console.log(typeof(res.data.list));

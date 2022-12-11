@@ -157,7 +157,7 @@ export default {
               this.navigatepageNums=this.calPages();
               this.prePage=res.data.prePage;
               this.nextPage=res.data.nextPage;
-              this.navigateLastPage=res.data.navigateLastPage;
+              this.navigateLastPage=res.data.pages;
               this.pageNum=res.data.pageNum;
               console.log(this.boardList);
               console.log(typeof(res.data.list));
