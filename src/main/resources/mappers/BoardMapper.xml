@@ -11,15 +11,17 @@
         ,delete_yn
         ,create_date
         ,update_date
+
     </sql>
     <select id="selectBoardList" parameterType="com.enm.genie.board.dto.BoardDTO" resultType="com.enm.genie.board.dto.BoardDTO">
         SELECT 
             /*boardseq,programseq,title,contents,name,delete_yn,create_date,update_date*/
-        <include refid="boardColumns"></include>
+        <include refid="boardColumns"></include>    ,DATE_FORMAT(update_date, '%Y-%m-%d')  AS "update_date_str"
         FROM genie_board
         <if test='programseq != null and programseq != ""'>
             WHERE `programseq` = #{programseq}
         </if>
+        order by create_date desc
     </select>
     <select id="getBoardList" parameterType="int" resultType="com.enm.genie.board.dto.BoardDTO">
         SELECT
@@ -30,6 +32,7 @@
         <if test='programseq != null and programseq !=0'>
             WHERE `programseq` = #{programseq}
         </if>
+        order by create_date desc
     </select>
 
     <select id="getBoardView" parameterType="int" resultType="com.enm.genie.board.dto.BoardDTO">

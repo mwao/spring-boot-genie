@@ -45,6 +45,7 @@ public class BoardService {
         }
     }
 
+   // @Cacheable(value = "codes")
     public List<BoardDTO> getBoardList()throws Exception{
         List<BoardDTO> boardList=boardDAO.getBoardList();
         return boardList;

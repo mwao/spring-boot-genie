@@ -18,4 +18,8 @@ public class ClipService {
         List<ClipDTO> clipList = clipDAO.getClipList(programseq);
         return clipList;
     }
+    public List<ClipDTO> getClipList() throws Exception{
+        List<ClipDTO> clipList = clipDAO.getClipList();
+        return clipList;
+    }
 }

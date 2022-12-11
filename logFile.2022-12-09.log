@@ -1,0 +1,317 @@
+20221209 11:28:09.861 [restartedMain] INFO  [SpringBoot03Application:55] - Starting SpringBoot03Application on ijeonghyeon-ui-MacBookPro.local with PID 46075 (/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes started by jjungss in /Users/jjungss/Downloads/spring_boot-master/spring-boot-03) 
+20221209 11:28:09.865 [restartedMain] INFO  [SpringBoot03Application:651] - No active profile set, falling back to default profiles: default 
+20221209 11:28:09.963 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 11:28:09.965 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 11:28:12.712 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 11:28:12.722 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 11:28:12.723 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 11:28:12.724 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 11:28:12.805 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 11:28:12.806 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 2841 ms 
+20221209 11:28:13.495 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 11:28:13.577 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 11:28:14.420 [restartedMain] INFO  [EhcacheManager:305] - Cache 'codes' created in EhcacheManager. 
+20221209 11:28:14.427 [restartedMain] INFO  [EhcacheManager:305] - Cache 'contents_pages' created in EhcacheManager. 
+20221209 11:28:14.435 [restartedMain] INFO  [EhcacheManager:305] - Cache 'menus' created in EhcacheManager. 
+20221209 11:28:14.470 [restartedMain] INFO  [Eh107CacheManager:378] - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=codes 
+20221209 11:28:14.475 [restartedMain] INFO  [Eh107CacheManager:378] - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=contents_pages 
+20221209 11:28:14.477 [restartedMain] INFO  [Eh107CacheManager:378] - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=menus 
+20221209 11:28:14.505 [restartedMain] INFO  [Eh107CacheManager:378] - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=codes 
+20221209 11:28:14.506 [restartedMain] INFO  [Eh107CacheManager:378] - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=contents_pages 
+20221209 11:28:14.507 [restartedMain] INFO  [Eh107CacheManager:378] - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=menus 
+20221209 11:28:14.573 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 11:28:14.614 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 11:28:14.652 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 11:28:14.671 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 11:28:14.694 [restartedMain] INFO  [SpringBoot03Application:61] - Started SpringBoot03Application in 5.684 seconds (JVM running for 6.909) 
+20221209 11:28:55.585 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 11:28:55.586 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 11:28:55.606 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 20 ms 
+20221209 11:28:55.810 [http-nio-8282-exec-2] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 11:28:55.811 [http-nio-8282-exec-2] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 11:28:55.998 [http-nio-8282-exec-2] INFO  [HikariDataSource:110] - HikariPool-1 - Starting... 
+20221209 11:28:56.060 [http-nio-8282-exec-4] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 11:28:56.062 [http-nio-8282-exec-4] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 11:28:56.611 [http-nio-8282-exec-2] INFO  [HikariDataSource:123] - HikariPool-1 - Start completed. 
+20221209 11:30:30.412 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 11:30:30.423 [SpringContextShutdownHook] INFO  [EhcacheManager:216] - Cache 'codes' removed from EhcacheManager. 
+20221209 11:30:30.424 [SpringContextShutdownHook] INFO  [EhcacheManager:216] - Cache 'contents_pages' removed from EhcacheManager. 
+20221209 11:30:30.424 [SpringContextShutdownHook] INFO  [EhcacheManager:216] - Cache 'menus' removed from EhcacheManager. 
+20221209 11:30:30.429 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 11:30:30.432 [SpringContextShutdownHook] INFO  [HikariDataSource:350] - HikariPool-1 - Shutdown initiated... 
+20221209 11:30:30.456 [SpringContextShutdownHook] INFO  [HikariDataSource:352] - HikariPool-1 - Shutdown completed. 
+20221209 11:53:31.258 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 11:53:31.262 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 11:53:33.501 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 11:53:33.514 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 11:53:33.516 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 11:53:33.516 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 11:53:33.618 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 11:53:33.619 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 2356 ms 
+20221209 11:53:34.385 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 11:53:34.479 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 11:53:35.604 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 11:53:35.653 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 11:53:35.694 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 11:53:35.714 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 11:53:38.000 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 11:53:38.003 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 11:53:38.015 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 11 ms 
+20221209 11:53:38.165 [http-nio-8282-exec-2] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 11:53:38.167 [http-nio-8282-exec-2] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 11:55:18.527 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 11:55:18.548 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 12:12:24.761 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 12:12:24.765 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 12:12:26.861 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 12:12:26.872 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 12:12:26.873 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 12:12:26.873 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 12:12:26.957 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 12:12:26.958 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 2192 ms 
+20221209 12:12:27.665 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 12:12:27.756 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 12:12:28.742 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 12:12:28.783 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 12:12:28.813 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 12:12:28.830 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 12:12:44.319 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 12:12:44.323 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 12:12:44.340 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 16 ms 
+20221209 12:12:45.209 [http-nio-8282-exec-1] ERROR [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [youtube]: would dispatch back to the current handler URL [/youtube] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause 
+javax.servlet.ServletException: Circular view path [youtube]: would dispatch back to the current handler URL [/youtube] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+20221209 13:38:11.553 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 13:38:11.581 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 13:38:20.717 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 13:38:20.721 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 13:38:22.874 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 13:38:22.885 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 13:38:22.886 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 13:38:22.886 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 13:38:22.965 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 13:38:22.966 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 2244 ms 
+20221209 13:38:23.714 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 13:38:23.807 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 13:38:24.790 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 13:38:24.829 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 13:38:24.863 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 13:38:24.881 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 13:50:12.299 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 13:50:12.322 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 13:50:21.526 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 13:50:21.528 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 13:50:23.558 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 13:50:23.569 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 13:50:23.570 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 13:50:23.571 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 13:50:23.647 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 13:50:23.648 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 2119 ms 
+20221209 13:50:24.380 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 13:50:24.467 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 13:50:25.412 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 13:50:25.452 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 13:50:25.485 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 13:50:25.502 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 13:50:30.259 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 13:50:30.262 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 13:50:30.274 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 11 ms 
+20221209 13:51:05.607 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 13:51:05.642 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 13:51:13.648 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 13:51:13.652 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 13:51:15.873 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 13:51:15.884 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 13:51:15.885 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 13:51:15.885 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 13:51:15.978 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 13:51:15.978 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 2325 ms 
+20221209 13:51:42.154 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 13:51:42.159 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 13:51:44.314 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 13:51:44.324 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 13:51:44.325 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 13:51:44.326 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 13:51:44.410 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 13:51:44.411 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 2250 ms 
+20221209 13:51:45.124 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 13:51:45.219 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 13:51:46.198 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 13:51:46.238 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 13:51:46.276 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 13:51:46.294 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 13:51:57.658 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 13:51:57.662 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 13:51:57.686 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 24 ms 
+20221209 13:52:04.801 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 13:52:04.814 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 14:34:32.740 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 14:34:32.742 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 14:34:34.210 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 14:34:34.220 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 14:34:34.221 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 14:34:34.221 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 14:34:34.288 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 14:34:34.289 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1546 ms 
+20221209 14:34:34.792 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 14:34:34.854 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 14:34:35.544 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 14:34:35.572 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 14:34:35.593 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 14:34:35.606 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 14:40:53.319 [http-nio-8282-exec-2] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 14:40:53.321 [http-nio-8282-exec-2] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 14:40:53.337 [http-nio-8282-exec-2] INFO  [DispatcherServlet:547] - Completed initialization in 16 ms 
+20221209 14:41:05.337 [http-nio-8282-exec-3] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:05.340 [http-nio-8282-exec-3] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:05.474 [http-nio-8282-exec-3] INFO  [HikariDataSource:110] - HikariPool-1 - Starting... 
+20221209 14:41:05.944 [http-nio-8282-exec-3] INFO  [HikariDataSource:123] - HikariPool-1 - Start completed. 
+20221209 14:41:12.802 [http-nio-8282-exec-4] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:12.803 [http-nio-8282-exec-4] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:21.795 [http-nio-8282-exec-9] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:21.812 [http-nio-8282-exec-9] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:38.217 [http-nio-8282-exec-6] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:38.218 [http-nio-8282-exec-6] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:39.972 [http-nio-8282-exec-1] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:39.973 [http-nio-8282-exec-1] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:41.605 [http-nio-8282-exec-10] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:41.606 [http-nio-8282-exec-10] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:44.632 [http-nio-8282-exec-9] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:44.634 [http-nio-8282-exec-9] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:45.840 [http-nio-8282-exec-2] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:41:45.840 [http-nio-8282-exec-2] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221209 14:42:39.738 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 14:42:39.755 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 14:42:39.756 [SpringContextShutdownHook] INFO  [HikariDataSource:350] - HikariPool-1 - Shutdown initiated... 
+20221209 14:42:39.765 [SpringContextShutdownHook] INFO  [HikariDataSource:352] - HikariPool-1 - Shutdown completed. 
+20221209 14:42:46.034 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 14:42:46.036 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 14:42:47.422 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 14:42:47.429 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 14:42:47.430 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 14:42:47.430 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 14:42:47.483 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 14:42:47.484 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1447 ms 
+20221209 14:42:47.960 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 14:42:48.018 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 14:42:48.655 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 14:42:48.680 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 14:42:48.700 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 14:42:48.712 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 15:55:47.465 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 15:55:47.478 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 15:55:55.072 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 15:55:55.074 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 15:55:56.566 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 15:55:56.573 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 15:55:56.574 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 15:55:56.574 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 15:55:56.633 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 15:55:56.634 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1560 ms 
+20221209 15:55:57.127 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 15:55:57.185 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 15:55:57.855 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 15:55:57.881 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 15:55:57.903 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 15:55:57.914 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 16:41:07.046 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 16:41:07.060 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 16:41:10.310 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 16:41:10.312 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 16:41:11.637 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 16:41:11.645 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 16:41:11.645 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 16:41:11.645 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 16:41:11.696 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 16:41:11.697 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1385 ms 
+20221209 16:41:12.159 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 16:41:12.211 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 16:41:12.840 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 16:41:12.864 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 16:41:12.886 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 16:41:12.898 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 16:41:28.082 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 16:41:28.084 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 16:41:28.094 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 10 ms 
+20221209 16:43:55.745 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 16:43:55.777 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 16:44:02.068 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 16:44:02.070 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 16:44:03.541 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 16:44:03.549 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 16:44:03.549 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 16:44:03.550 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 16:44:03.625 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 16:44:03.625 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1555 ms 
+20221209 16:44:04.122 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 16:44:04.187 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 16:44:04.856 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 16:44:04.882 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 16:44:04.909 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 16:44:04.921 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 16:56:43.088 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 16:56:43.094 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 16:56:43.106 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 12 ms 
+20221209 17:38:48.907 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221209 17:38:48.921 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221209 17:38:54.271 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221209 17:38:54.273 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221209 17:38:55.937 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221209 17:38:55.946 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221209 17:38:55.947 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221209 17:38:55.947 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221209 17:38:56.022 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221209 17:38:56.023 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1750 ms 
+20221209 17:38:56.601 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221209 17:38:56.669 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221209 17:38:57.468 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221209 17:38:57.497 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221209 17:38:57.519 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221209 17:38:57.534 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221209 17:39:10.785 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221209 17:39:10.787 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221209 17:39:10.805 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 17 ms 

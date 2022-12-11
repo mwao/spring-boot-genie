@@ -16,7 +16,9 @@ public class ClipDTO {
     private String title;
     private String description;
     private String playUrl;
-    private String playTime;
+   // private String playTime;
+
+    private String videoId;
     private LocalDateTime createDate;
     private LocalDateTime updateDate;
 }

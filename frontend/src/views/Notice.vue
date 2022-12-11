@@ -150,7 +150,7 @@ export default {
       const params={pageNum:param,pageSize:this.size}
       //console.log(params);
       if(first){
-        this.axios.get("/api/board/pagetest",{params})
+        this.axios.get("/api/board/page",{params})
             .then((res)=>{
               this.boardList=res.data.list;
               this.pages=res.data.pages;
@@ -159,10 +159,12 @@ export default {
               this.nextPage=res.data.nextPage;
               this.navigateLastPage=res.data.navigateLastPage;
               this.pageNum=res.data.pageNum;
-            })``
+              console.log(this.boardList);
+              console.log(typeof(res.data.list));
+            })
             .catch((e)=>console.log(e))
       }else{
-      this.axios.get("/api/board/pagetest",{params})
+      this.axios.get("/api/board/page",{params})
           .then((res)=>{
             this.boardList=res.data.list;
             this.prePage=res.data.prePage;

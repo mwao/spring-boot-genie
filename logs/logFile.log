@@ -1,0 +1,516 @@
+20221212 00:03:28.399 [http-nio-8282-exec-1] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:03:28.405 [http-nio-8282-exec-1] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:03:39.635 [http-nio-8282-exec-3] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:03:39.636 [http-nio-8282-exec-3] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:06:48.120 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221212 00:06:48.135 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221212 00:06:48.137 [SpringContextShutdownHook] INFO  [HikariDataSource:350] - HikariPool-1 - Shutdown initiated... 
+20221212 00:06:48.148 [SpringContextShutdownHook] INFO  [HikariDataSource:352] - HikariPool-1 - Shutdown completed. 
+20221212 00:06:55.228 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221212 00:06:55.236 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221212 00:06:56.683 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221212 00:06:56.691 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221212 00:06:56.692 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221212 00:06:56.692 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221212 00:06:56.761 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221212 00:06:56.762 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1525 ms 
+20221212 00:06:57.020 [restartedMain] WARN  [AnnotationConfigServletWebServerApplicationContext:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] 
+20221212 00:06:57.023 [restartedMain] INFO  [StandardService:173] - Stopping service [Tomcat] 
+20221212 00:06:57.043 [restartedMain] INFO  [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+20221212 00:06:57.046 [restartedMain] ERROR [SpringApplication:837] - Application run failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.enm.SpringBoot03Application.main(SpringBoot03Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 49 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 62 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at com.enm.SpringBoot03Application.sqlSessionFactory(SpringBoot03Application.java:32)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$25be4427.CGLIB$sqlSessionFactory$0(<generated>)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$25be4427$$FastClassBySpringCGLIB$$5fabe9ad.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$25be4427.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 63 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 76 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:992)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:948)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:746)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:297)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:113)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 78 common frames omitted
+20221212 00:08:02.439 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221212 00:08:02.441 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221212 00:08:03.825 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221212 00:08:03.832 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221212 00:08:03.833 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221212 00:08:03.833 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221212 00:08:03.890 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221212 00:08:03.891 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1450 ms 
+20221212 00:08:04.139 [restartedMain] WARN  [AnnotationConfigServletWebServerApplicationContext:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] 
+20221212 00:08:04.142 [restartedMain] INFO  [StandardService:173] - Stopping service [Tomcat] 
+20221212 00:08:04.156 [restartedMain] INFO  [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+20221212 00:08:04.159 [restartedMain] ERROR [SpringApplication:837] - Application run failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.enm.SpringBoot03Application.main(SpringBoot03Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 49 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 62 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at com.enm.SpringBoot03Application.sqlSessionFactory(SpringBoot03Application.java:32)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$aa4294d9.CGLIB$sqlSessionFactory$0(<generated>)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$aa4294d9$$FastClassBySpringCGLIB$$384a0670.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$aa4294d9.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 63 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 76 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:992)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:948)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:746)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:297)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:113)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 78 common frames omitted
+20221212 00:09:25.221 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221212 00:09:25.223 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221212 00:09:26.578 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221212 00:09:26.585 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221212 00:09:26.586 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221212 00:09:26.586 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221212 00:09:26.643 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221212 00:09:26.644 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1421 ms 
+20221212 00:09:26.892 [restartedMain] WARN  [AnnotationConfigServletWebServerApplicationContext:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] 
+20221212 00:09:26.896 [restartedMain] INFO  [StandardService:173] - Stopping service [Tomcat] 
+20221212 00:09:26.918 [restartedMain] INFO  [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+20221212 00:09:26.921 [restartedMain] ERROR [SpringApplication:837] - Application run failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.enm.SpringBoot03Application.main(SpringBoot03Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardService': Unsatisfied dependency expressed through field 'boardDAO'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardDAO' defined in file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes/com/enm/genie/board/dao/BoardDAO.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in com.enm.SpringBoot03Application: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 49 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 62 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at com.enm.SpringBoot03Application.sqlSessionFactory(SpringBoot03Application.java:32)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$73e9f660.CGLIB$sqlSessionFactory$0(<generated>)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$73e9f660$$FastClassBySpringCGLIB$$e95bc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.enm.SpringBoot03Application$$EnhancerBySpringCGLIB$$73e9f660.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 63 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 76 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.enm.genie.clip.dao.ClipDAO.getClipList. please check file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml] and file [/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/mappers/ClipMapper.xml]
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:992)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:948)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:746)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:297)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:113)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 78 common frames omitted
+20221212 00:10:40.979 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221212 00:10:40.981 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221212 00:10:42.333 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221212 00:10:42.340 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221212 00:10:42.341 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221212 00:10:42.342 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221212 00:10:42.398 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221212 00:10:42.399 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1418 ms 
+20221212 00:10:42.878 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221212 00:10:42.940 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221212 00:10:43.564 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221212 00:10:43.590 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221212 00:10:43.611 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221212 00:10:43.625 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221212 00:11:03.955 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221212 00:11:03.958 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221212 00:11:03.967 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 8 ms 
+20221212 00:11:03.993 [http-nio-8282-exec-1] ERROR [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.github.pagehelper.PageException: 分页查询缺少必要的参数:pageNum] with root cause 
+com.github.pagehelper.PageException: 分页查询缺少必要的参数:pageNum
+	at com.github.pagehelper.util.PageObjectUtil.getParamValue(PageObjectUtil.java:173)
+	at com.github.pagehelper.util.PageObjectUtil.getPageFromObject(PageObjectUtil.java:112)
+	at com.github.pagehelper.page.PageMethod.startPage(PageMethod.java:85)
+	at com.enm.genie.clip.controller.ClipController.findPage(ClipController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+20221212 00:11:22.027 [http-nio-8282-exec-2] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:11:22.030 [http-nio-8282-exec-2] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:11:22.181 [http-nio-8282-exec-2] INFO  [HikariDataSource:110] - HikariPool-1 - Starting... 
+20221212 00:11:22.523 [http-nio-8282-exec-2] INFO  [HikariDataSource:123] - HikariPool-1 - Start completed. 
+20221212 00:12:05.758 [http-nio-8282-exec-6] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:05.761 [http-nio-8282-exec-6] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:08.302 [http-nio-8282-exec-7] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:08.303 [http-nio-8282-exec-7] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:08.865 [http-nio-8282-exec-8] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:08.866 [http-nio-8282-exec-8] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:09.548 [http-nio-8282-exec-9] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:09.549 [http-nio-8282-exec-9] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:29.128 [http-nio-8282-exec-2] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:29.130 [http-nio-8282-exec-2] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:30.879 [http-nio-8282-exec-3] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:30.880 [http-nio-8282-exec-3] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:32.238 [http-nio-8282-exec-4] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:32.238 [http-nio-8282-exec-4] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:43.358 [http-nio-8282-exec-6] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:43.359 [http-nio-8282-exec-6] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:44.475 [http-nio-8282-exec-7] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:44.476 [http-nio-8282-exec-7] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:45.318 [http-nio-8282-exec-8] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:45.319 [http-nio-8282-exec-8] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:47.063 [http-nio-8282-exec-9] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:47.065 [http-nio-8282-exec-9] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:48.484 [http-nio-8282-exec-10] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:48.486 [http-nio-8282-exec-10] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:49.625 [http-nio-8282-exec-1] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:12:49.626 [http-nio-8282-exec-1] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:13:13.100 [http-nio-8282-exec-3] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:13:13.101 [http-nio-8282-exec-3] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:13:25.319 [http-nio-8282-exec-4] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:13:25.320 [http-nio-8282-exec-4] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:13:27.322 [http-nio-8282-exec-5] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:13:27.323 [http-nio-8282-exec-5] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:13:54.293 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221212 00:13:54.310 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221212 00:13:54.311 [SpringContextShutdownHook] INFO  [HikariDataSource:350] - HikariPool-1 - Shutdown initiated... 
+20221212 00:13:54.325 [SpringContextShutdownHook] INFO  [HikariDataSource:352] - HikariPool-1 - Shutdown completed. 
+20221212 00:13:58.062 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221212 00:13:58.066 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221212 00:13:59.455 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8282 (http) 
+20221212 00:13:59.462 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8282"] 
+20221212 00:13:59.463 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221212 00:13:59.463 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221212 00:13:59.534 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221212 00:13:59.535 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 1468 ms 
+20221212 00:14:00.020 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221212 00:14:00.084 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221212 00:14:00.737 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221212 00:14:00.764 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221212 00:14:00.785 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8282"] 
+20221212 00:14:00.797 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8282 (http) with context path '' 
+20221212 00:14:05.725 [http-nio-8282-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221212 00:14:05.726 [http-nio-8282-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221212 00:14:05.734 [http-nio-8282-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 8 ms 
+20221212 00:14:05.768 [http-nio-8282-exec-1] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:14:05.769 [http-nio-8282-exec-1] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:14:05.901 [http-nio-8282-exec-1] INFO  [HikariDataSource:110] - HikariPool-1 - Starting... 
+20221212 00:14:06.235 [http-nio-8282-exec-1] INFO  [HikariDataSource:123] - HikariPool-1 - Start completed. 
+20221212 00:14:15.556 [http-nio-8282-exec-3] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:14:15.557 [http-nio-8282-exec-3] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:17:57.983 [http-nio-8282-exec-7] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:17:57.984 [http-nio-8282-exec-7] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:18:03.750 [http-nio-8282-exec-9] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:18:03.751 [http-nio-8282-exec-9] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:18:08.553 [http-nio-8282-exec-10] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221212 00:18:08.554 [http-nio-8282-exec-10] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 

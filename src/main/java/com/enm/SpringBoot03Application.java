@@ -27,7 +27,8 @@ public class SpringBoot03Application {
 		
 		Resource[] res = new PathMatchingResourcePatternResolver().getResources("classpath:mappers/*Mapper.xml");
 		sessionFactory.setMapperLocations(res);
-		
+		sessionFactory.setConfigLocation(new PathMatchingResourcePatternResolver().getResource("classpath:/mybatis-config.xml")); // 카멜케이스 적용 위함
+
 		return sessionFactory.getObject();
 	}
 

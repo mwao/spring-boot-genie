@@ -1,0 +1,38 @@
+[2022-12-09 11:55:24:1757][restartedMain] INFO  com.enm.SpringBoot03Application - Starting SpringBoot03Application on ijeonghyeon-ui-MacBookPro.local with PID 61200 (/Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/classes started by jjungss in /Users/jjungss/Downloads/spring_boot-master/spring-boot-03)
+[2022-12-09 11:55:24:1763][restartedMain] INFO  com.enm.SpringBoot03Application - No active profile set, falling back to default profiles: default
+[2022-12-09 11:55:24:1906][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-12-09 11:55:24:1907][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-12-09 11:55:27:5266][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8282 (http)
+[2022-12-09 11:55:27:5276][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8282"]
+[2022-12-09 11:55:27:5277][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2022-12-09 11:55:27:5277][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2022-12-09 11:55:27:5357][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-12-09 11:55:27:5360][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3452 ms
+[2022-12-09 11:55:28:6164][restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-12-09 11:55:28:6265][restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[2022-12-09 11:55:29:7131][restartedMain] INFO  org.ehcache.core.EhcacheManager - Cache 'codes' created in EhcacheManager.
+[2022-12-09 11:55:29:7135][restartedMain] INFO  org.ehcache.core.EhcacheManager - Cache 'contents_pages' created in EhcacheManager.
+[2022-12-09 11:55:29:7139][restartedMain] INFO  org.ehcache.core.EhcacheManager - Cache 'menus' created in EhcacheManager.
+[2022-12-09 11:55:29:7168][restartedMain] INFO  o.ehcache.jsr107.Eh107CacheManager - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=codes
+[2022-12-09 11:55:29:7172][restartedMain] INFO  o.ehcache.jsr107.Eh107CacheManager - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=contents_pages
+[2022-12-09 11:55:29:7173][restartedMain] INFO  o.ehcache.jsr107.Eh107CacheManager - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=menus
+[2022-12-09 11:55:29:7189][restartedMain] INFO  o.ehcache.jsr107.Eh107CacheManager - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=codes
+[2022-12-09 11:55:29:7189][restartedMain] INFO  o.ehcache.jsr107.Eh107CacheManager - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=contents_pages
+[2022-12-09 11:55:29:7189][restartedMain] INFO  o.ehcache.jsr107.Eh107CacheManager - Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/jjungss/Downloads/spring_boot-master/spring-boot-03/out/production/resources/ehcache.xml,Cache=menus
+[2022-12-09 11:55:29:7246][restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-12-09 11:55:29:7285][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2022-12-09 11:55:29:7330][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8282"]
+[2022-12-09 11:55:29:7349][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8282 (http) with context path ''
+[2022-12-09 11:55:29:7378][restartedMain] INFO  com.enm.SpringBoot03Application - Started SpringBoot03Application in 6.638 seconds (JVM running for 8.711)
+[2022-12-09 11:55:44:22429][http-nio-8282-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-09 11:55:44:22430][http-nio-8282-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-12-09 11:55:44:22441][http-nio-8282-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+[2022-12-09 11:55:45:22730][http-nio-8282-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2022-12-09 11:55:45:23227][http-nio-8282-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2022-12-09 12:12:09:1006776][SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[2022-12-09 12:12:09:1006794][SpringContextShutdownHook] INFO  org.ehcache.core.EhcacheManager - Cache 'codes' removed from EhcacheManager.
+[2022-12-09 12:12:09:1006796][SpringContextShutdownHook] INFO  org.ehcache.core.EhcacheManager - Cache 'contents_pages' removed from EhcacheManager.
+[2022-12-09 12:12:09:1006796][SpringContextShutdownHook] INFO  org.ehcache.core.EhcacheManager - Cache 'menus' removed from EhcacheManager.
+[2022-12-09 12:12:09:1006808][SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-12-09 12:12:09:1006810][SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2022-12-09 12:12:09:1006833][SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

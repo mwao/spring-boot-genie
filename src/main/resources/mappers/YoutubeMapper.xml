@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.enm.genie.youtube.dao.YoutubeDAO">
+    <sql id="clipColumns">
+        programseq
+        ,title
+        ,thumbnail
+        ,description
+        ,video_id
+        ,create_date
+        ,update_date
+    </sql>
+    <insert id="saveYoutube"  parameterType="java.util.ArrayList">
+        insert into genie_clip (programseq,thumbnail,title,description,video_id,play_url,create_date,update_date) values
+        <foreach collection="list" item="item" index="index" separator="," >
+               (0,#{item.thumbnailPath},#{item.title},#{item.description},#{item.videoId},#{item.playUrl},NOW(),NOW())
+
+        </foreach>
+
+    </insert>
+   <!-- <update id="updateYoutube" parameterType="com.enm.genie.board.dto.BoardDTO">
+        update genie_board set
+                               title=#{title},
+                               contents=#{contents},
+                               name=#{name},
+                               delete_yn=#{deleteYn},
+                               update_date=NOW()
+        where boardseq=#{boardseq}</update>-->
+</mapper>

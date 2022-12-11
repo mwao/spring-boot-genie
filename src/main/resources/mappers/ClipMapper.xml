@@ -9,17 +9,17 @@
         ,thumbnail
         ,description
         ,play_url
-        ,play_time
         ,create_date
         ,update_date
     </sql>
     <select id="getClipList" parameterType="int" resultType="com.enm.genie.clip.dto.ClipDTO">
         select
-            <include refid="clipColumns"></include>
+        *
         FROM genie_clip
         <if test='programseq != null and programseq !=0'>
             WHERE `programseq` = #{programseq}
         </if>
 
     </select>
+
 </mapper>

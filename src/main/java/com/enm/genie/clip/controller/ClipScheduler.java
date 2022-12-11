@@ -39,8 +39,8 @@ public class ClipScheduler {
             System.out.print((char) ch);
         }
 
-        log.info("now: "+strDate);
-        log.info("youtube api call 결과 : "+result.toString());
+//        log.info("now: "+strDate);
+//        log.info("youtube api call 결과 : "+result.toString());
 
     }
 

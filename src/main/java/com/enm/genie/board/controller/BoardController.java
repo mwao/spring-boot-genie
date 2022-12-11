@@ -5,6 +5,8 @@ import com.enm.genie.board.service.BoardService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cache.annotation.EnableCaching;
@@ -17,6 +19,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/board")
 public class BoardController {
+
+    Logger logger= LoggerFactory.getLogger(getClass());
 
     @Autowired
     private BoardService boardService;
@@ -38,9 +42,12 @@ public class BoardController {
         boardService.saveBoard(boardDTO);
     }
 
-    @GetMapping("/pagetest")
+    @GetMapping("/page")
     public PageInfo<BoardDTO> findPage(HttpServletRequest request) throws Exception{
         PageHelper.startPage(request);
+        logger.error("error 테스트 : "+logger.getName());
+        logger.warn("warn 테스트 : "+logger.getName());
         return PageInfo.of(boardService.getBoardList());
     }
+
 }

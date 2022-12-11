@@ -1,45 +1,36 @@
 <template>
-    <div class="loading" >
-        <Loading />
-    </div>
+<!--    <div class="loading" >-->
+<!--        <Loading />-->
+<!--    </div>-->
     <div class="clip" >
         <div class="page">
             <p class="p-tit">다시보기</p>
             <div class="p-cnt">
-                <div class="fp-recom_box" v-for="(clip, index) in clipLists" :key="index" >
-                    <a href="#" class="thumb">
-                        <img :src="clip.thumbnail " :alt="clip.desc">
-                        <span class="time">{{clip.time}}</span>
+                <div class="fp-recom_box" v-for="(clip, index) in Lists" :key="index" >
+                    <a :href="clip.playUrl" class="thumb" target="_blank">
+                        <img :src="clip.thumbnail" :alt="clip.title">
+<!--                        <span class="time">{{clip.time}}</span>-->
                         <span class="mask">
                             <span class="ic"></span>
                         </span>
                     </a>
                     <div class="desc">
-                        <a href="#">
-                            <span class="ellipsis">{{clip.desc}}</span>
+                        <a :href="clip.playUrl" >
+                            <span class="ellipsis">{{clip.title}}</span>
                             <p class="ellipsis">
-                                {{clip.desc}}<br><br>전설이 되어라, WHO IS THE KING?<br>＜킹덤(KINGDOM : LEGENDARY WAR)＞
+                                {{clip.description}}<br><br>전설이 되어라, WHO IS THE KING?<br>＜킹덤(KINGDOM : LEGENDARY WAR)＞
                             </p>
                         </a>
-                        <span class="date">2021.06.03</span>
+                        <span class="date">{{ clip.updateDate.substr(0,10) }}</span>
                     </div>
                 </div>
                 <ul class="page-nav">
-                    <li class="disabled"><a tabindex="-1">＜＜</a></li>
-                    <li class="disabled"><a tabindex="-1">＜</a></li>
-                    <li class="current"><a tabindex="0">1</a></li>
-                    <li class=""><a tabindex="0">2</a></li>
-                    <li class=""><a tabindex="0">3</a></li>
-                    <li class=""><a tabindex="0">4</a></li>
-                    <li class=""><a tabindex="0">5</a></li>
-                    <li class=""><a tabindex="0">6</a></li>
-                    <li class=""><a tabindex="0">7</a></li>
-                    <li class=""><a tabindex="0">8</a></li>
-                    <li class=""><a tabindex="0">9</a></li>
-                    <li class=""><a tabindex="0">10</a></li>
-                    <li class="disabled"><a tabindex="0" class="">…</a></li>
-                    <li class=""><a tabindex="0">＞</a></li>
-                    <li class=""><a tabindex="0">＞＞</a></li>
+                  <li class="disabled "><a tabindex="-1" class="page-btn" id="1" @click.stop="pageBtn(1)">＜＜</a></li>
+                  <li class="disabled"><a tabindex="-1" class="page-btn" :id="this.prePage" @click.stop="pageBtn(this.prePage)">＜</a></li>
+                  <li v-for="item in navigatepageNums" :key="item" :class="[item===this.pageNum?'current':'disabled']"><a tabindex="0" :id="item" @click.stop="pageBtn(item)">{{ item }}</a></li>
+                  <li class="disabled"><a tabindex="-1" class="page-btn" :id="this.nextPage"  @click.stop="pageBtn(this.nextPage)">＞</a></li>
+                  <li class="disabled"><a tabindex="-1" class="page-btn" :id="this.navigateLastPage" @click.stop="pageBtn(this.navigateLastPage)">＞＞</a></li>
+
                 </ul>
             </div>
         </div>
@@ -49,10 +40,11 @@
 
 <script>
 import Banner from "../components/Banner.vue"
-import Loading from "../components/Loading.vue"
+// import Loading from "../components/Loading.vue"
 export default {
     components: {
-        Banner, Loading
+        Banner
+      // , Loading
     },
     data() {
         return {
@@ -87,36 +79,91 @@ export default {
                     time : "04:09",
                     desc : "[Full Cam] ♬ 소년의 일기 - 은광, 동혁, 인성, 현재, 승민, 종호 @스페셜 무대",
                 },
-                {
-                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/769/210769_1_320x240.JPG',
-                    date: "2021.06.03",
-                    time : "04:55",
-                    desc : "[Full Cam] ♬ 피날레 (Show And Prove) - 비투비(BTOB) @파이널 경연",
-                },
-                {
-                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/768/210768_1_320x240.JPG',
-                    date: "2021.06.03",
-                    time : "05:12",
-                    desc : "[Full Cam] ♬ KINGDOM COME - 더보이즈(THE BOYZ) @파이널 경연",
-                },
-                {
-                    thumbnail : '//image.genie.co.kr//Y/IMAGE/IMG_MUSICVIDEO/000/210/767/210767_1_320x240.JPG',
-                    date: "2021.06.03",
-                    time : "03:53",
-                    desc : "[Full Cam] ♬ 열중쉬어 (At ease) - 아이콘(iKON) @파이널 경연",
-                },
+
             ],
+            Lists:[],
+            pageNum:1,
+            size:10,
+            pages:1, // 총 페이지
+            prePage:0,
+            nextPage:2,
+            navigatepageNums:[], // 총 페이지 어레이
+            navigateLastPage:1, //마지막 페이지 넘버
+            isLastPage:true,
+            pageArray:[] // 변형 어레이
         }
     },
-    // mounted () {
-    //     const that = this
-    //     axios.get('http://10.184.171.116:8181/api/board/list')
-    //         .then(function (res) {
-    //             that.clipLists = res.data.data
-    //         })
-    //         .catch(function (error) {
-    //             console.log(error)
-    //         })
+    mounted () {
+      // this.axios.get('/api/clip/list')
+      //     .then( (res) =>{
+      //       // that.clipLists = res.data.data
+      //       // this.apiClipLists=res.data;
+      //
+      //       console.log(res.data);
+      //       this.Lists=res.data;
+      //       console.log(this.Lists);
+      //     })
+      //     .catch(function (error) {
+      //       console.log(error)
+      //     })
+      this.loadPage(this.pageNum,true);
+
+    },
+  methods:{calPages(){
+      var array=new Array();
+      for(var i =0;i<this.pages;i++) {
+        array.push(i+1)
+      }
+      return array;
+    },
+    // pageArrayCal(param){
+    //   var array=new Array();
+    //   var a=Math.trunc((param)/(this.size+1));
+    //    console.log("a: "+a);
+    //
+    //   for(var i =0;i<a;i++) {
+    //     array.push(i+1)
+    //   }
+    //   return array;
+    // },
+    pageBtn(param){
+      if(param!==this.pageNum) {
+        // console.log("param: "+param);
+        // console.log("this.pageNum: "+this.pageNum);
+        this.loadPage(param,false);
+        console.log("pageBtn: "+param);
+      }
+    },
+    loadPage(param,first) {
+      const params={pageNum:param,pageSize:this.size}
+      //console.log(params);
+      if(first){
+        this.axios.get("/api/clip/page",{params})
+            .then((res)=>{
+              this.Lists=res.data.list;
+              this.pages=res.data.pages;
+              this.navigatepageNums=this.calPages();
+              this.prePage=res.data.prePage;
+              this.nextPage=res.data.nextPage;
+              this.navigateLastPage=res.data.navigateLastPage;
+              this.pageNum=res.data.pageNum;
+              console.log(this.Lists);
+              console.log(typeof(res.data.list));
+            })
+            .catch((e)=>console.log(e))
+      }else{
+        this.axios.get("/api/clip/page",{params})
+            .then((res)=>{
+              this.Lists=res.data.list;
+              this.prePage=res.data.prePage;
+              this.nextPage=res.data.nextPage;
+              this.pageNum=res.data.pageNum;
+              console.log(res.data);
+              /*console.log(res.data.list)*/})
+            .catch((e)=>console.log(e))
+      }
+    }
+  }
 
     //     window['$']('#videoTopView').initPOCPlayer({
     //         // memberid: 'lifestyler',
@@ -148,7 +195,7 @@ export default {
         position: relative;
         overflow: hidden;
         display: inline-block;
-        width: 180px;
+        width: 130px;
         height: 100px;
         img{
             width: 100%;
