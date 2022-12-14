@@ -14,7 +14,7 @@
                             </dl>
                             <dl>
                                 <dt>등록일</dt>
-                                <dd>{{boardContents.updateDate}}</dd>
+                                <dd>{{boardContents.updateDate.substr(0,10)}}</dd>
                             </dl>
                         </div>
                         <div class="board_cont ql-editor">

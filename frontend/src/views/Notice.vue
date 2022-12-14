@@ -121,13 +121,24 @@ export default {
           .catch((e)=>console.log(e))*/
 
   },methods:{
-      calPages(){
-        var array=new Array();
-        for(var i =0;i<this.pages;i++) {
-          array.push(i+1)
-        }
-        return array;
-      },
+    calPages(){
+      var array=new Array();
+      var calPage=Math.floor((this.pageNum-1)/10); // 1-10 : 0 , 11-20 : 1
+      var lastArrPage=0;  // array 의 마지막 숫자
+
+      //paging array 의 마지막 숫자 계산
+      if(((calPage+1)*10)>this.pages) {
+        lastArrPage = this.pages;
+      }else{
+        lastArrPage=((calPage+1)*10);
+      }
+
+      //paging array생성
+      for(var i =(calPage*10+1);i<=lastArrPage;i++) {
+        array.push(i)
+      }
+      return array;
+    },
       // pageArrayCal(param){
       //   var array=new Array();
       //   var a=Math.trunc((param)/(this.size+1));

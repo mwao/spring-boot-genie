@@ -83,7 +83,7 @@ export default {
             ],
             Lists:[],
             pageNum:1,
-            size:10,
+            size:5,
             pages:1, // 총 페이지
             prePage:0,
             nextPage:2,
@@ -109,23 +109,25 @@ export default {
       this.loadPage(this.pageNum,true);
 
     },
-  methods:{calPages(){
-      var array=new Array();
-      for(var i =0;i<this.pages;i++) {
-        array.push(i+1)
-      }
-      return array;
+  methods:{
+      calPages(){
+        var array=new Array();
+        var calPage=Math.floor((this.pageNum-1)/10); // 1-10 : 0 , 11-20 : 1
+        var lastArrPage=0;  // array 의 마지막 숫자
+
+        //paging array 의 마지막 숫자 계산
+        if(((calPage+1)*10)>this.pages) {
+          lastArrPage = this.pages;
+        }else{
+          lastArrPage=((calPage+1)*10);
+        }
+
+        //paging array생성
+        for(var i =(calPage*10+1);i<=lastArrPage;i++) {
+          array.push(i)
+        }
+        return array;
     },
-    // pageArrayCal(param){
-    //   var array=new Array();
-    //   var a=Math.trunc((param)/(this.size+1));
-    //    console.log("a: "+a);
-    //
-    //   for(var i =0;i<a;i++) {
-    //     array.push(i+1)
-    //   }
-    //   return array;
-    // },
     pageBtn(param){
       if(param!==this.pageNum) {
         // console.log("param: "+param);
@@ -142,12 +144,12 @@ export default {
             .then((res)=>{
               this.Lists=res.data.list;
               this.pages=res.data.pages;
-              this.navigatepageNums=this.calPages();
               this.prePage=res.data.prePage;
               this.nextPage=res.data.nextPage;
               this.navigateLastPage=res.data.pages;
               console.log("navigateLastPage: "+this.navigateLastPage );
               this.pageNum=res.data.pageNum;
+              this.navigatepageNums=this.calPages();
               console.log(this.Lists);
               console.log(typeof(res.data.list));
             })
@@ -159,6 +161,7 @@ export default {
               this.prePage=res.data.prePage;
               this.nextPage=res.data.nextPage;
               this.pageNum=res.data.pageNum;
+              this.navigatepageNums=this.calPages();
               console.log(res.data);
               /*console.log(res.data.list)*/})
             .catch((e)=>console.log(e))
