@@ -19,6 +19,23 @@
         </foreach>
 
     </insert>
+    <insert id="saveYoutubeScheduled"  parameterType="java.util.ArrayList">
+
+        insert into genie_clip (programseq,thumbnail,title,description,video_id,play_url,create_date,update_date) values
+        <foreach collection="list" item="item" index="index" separator="," >
+               (0,#{item.thumbnailPath},#{item.title},#{item.description},#{item.videoId},#{item.playUrl},NOW(),NOW())
+
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+            thumbnail=VALUES(thumbnail),
+            title=VALUES(title),
+            description=VALUES(description),
+            video_id=VALUES(video_id),
+            play_url=VALUES(play_url),
+            update_date=NOW()
+
+
+    </insert>
    <!-- <update id="updateYoutube" parameterType="com.enm.genie.board.dto.BoardDTO">
         update genie_board set
                                title=#{title},

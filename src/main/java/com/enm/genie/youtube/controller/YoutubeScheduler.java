@@ -1,6 +1,5 @@
-package com.enm.genie.youtube.service;
+package com.enm.genie.youtube.controller;
 
-import com.enm.genie.youtube.provider.YoutubeProvider;
 import com.enm.genie.youtube.dao.YoutubeDAO;
 import com.enm.genie.youtube.dto.YoutubeDTO;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
@@ -13,23 +12,26 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.model.PlaylistItem;
 import com.google.api.services.youtube.model.PlaylistItemListResponse;
-import com.google.api.services.youtube.model.Thumbnail;
-import com.google.api.services.youtube.model.Video;
-import org.mybatis.spring.annotation.MapperScan;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-@Service
-@MapperScan(basePackages = "com.enm.genie.youtube.dao")
-public class YoutubeService implements YoutubeProvider {
+@Slf4j
+@Component
+//@RestController
+//@RequestMapping("/youtubescheduled")
+public class YoutubeScheduler {
 
     private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
     private static final JsonFactory JSON_FACTORY = new JacksonFactory();
@@ -38,7 +40,7 @@ public class YoutubeService implements YoutubeProvider {
 
     private static String key="AIzaSyArnbKYeK6OYxJ3DVK9SxGb5hlBygGDFFU";
 
-//    private static String playlistId="PLjUVzlcpeN4SZ5hmi7FsSnDNQ2cCXqI4D"; // 플레이리스트 id
+    //    private static String playlistId="PLjUVzlcpeN4SZ5hmi7FsSnDNQ2cCXqI4D"; // 플레이리스트 id
     private static String playlistId="PLjUVzlcpeN4RjpMtu_youlnBIgNJuG6z4"; // 플레이리스트 id (로드투킹덤)
 
     @Autowired
@@ -46,93 +48,25 @@ public class YoutubeService implements YoutubeProvider {
 
     Logger logger= LoggerFactory.getLogger(getClass());
 
-    private static void prettyPrint(Iterator<Video> iteratorSearchResults, YoutubeDTO youTubeDto) {
+    // 1초에 한번 실행된다.
+/*    @Scheduled(fixedDelay = 1000)
+    public void scheduleFixedRateTask() {
+        System.out.println(
+                "Fixed rate task - " + System.currentTimeMillis() / 1000);
+    }*/
 
-        System.out.println("\n=============================================================");
-        System.out.println("=============================================================\n");
-
-        if (!iteratorSearchResults.hasNext()) {
-            System.out.println(" There aren't any results for your query.");
-        }
-
-        while (iteratorSearchResults.hasNext()) {
-
-            Video singleVideo = iteratorSearchResults.next();
-
-            // Double checks the kind is video.
-            if (singleVideo.getKind().equals("youtube#video")) {
-                Thumbnail thumbnail = (Thumbnail) singleVideo.getSnippet().getThumbnails().get("default");
-
-                System.out.println(" Video Id" + singleVideo.getId());
-                System.out.println(" Title: " + singleVideo.getSnippet().getTitle());
-                System.out
-                        .println(" contentDetails Duration: " + singleVideo.getContentDetails().getDuration());
-                System.out.println(" Thumbnail: " + thumbnail.getUrl());
-                System.out.println("\n-------------------------------------------------------------\n");
-
-                youTubeDto.setThumbnailPath(thumbnail.getUrl());
-                youTubeDto.setTitle(singleVideo.getSnippet().getTitle());
-                youTubeDto.setVideoId(singleVideo.getId());
-
-            }
-        }
-    }
-
-    private static void prettyPrint(int size, Iterator<PlaylistItem> playlistEntries) {
-        System.out.println("=============================================================");
-        System.out.println("\t\tTotal Videos Uploaded: " + size);
-        System.out.println("=============================================================\n");
-
-        while (playlistEntries.hasNext()) {
-            PlaylistItem playlistItem = playlistEntries.next();
-            System.out.println(" video name  = " + playlistItem.getSnippet().getTitle());
-            System.out.println(" video id    = " + playlistItem.getContentDetails().getVideoId());
-            System.out.println(" upload date = " + playlistItem.getSnippet().getPublishedAt());
-            System.out.println("\n-------------------------------------------------------------\n");
-        }
-    }
-    @Override
-    public YoutubeDTO get() {
-        YoutubeDTO youTubeDto = new YoutubeDTO();
-
-        try {
-            youtube = new YouTube.Builder(HTTP_TRANSPORT, JSON_FACTORY, new HttpRequestInitializer() {
-                public void initialize(HttpRequest request) throws IOException {
-                }
-            }).setApplicationName("youtube-video-duration-get").build();
-
-            //내가 원하는 정보 지정할 수 있어요. 공식 API문서를 참고해주세요.
-            YouTube.Videos.List videos = youtube.videos().list("id,snippet,contentDetails");
-            videos.setKey(key);
-            videos.setId("PwU2zn7h_Qg");
-            videos.setMaxResults(NUMBER_OF_VIDEOS_RETURNED); //조회 최대 갯수.
-            List<Video> videoList = videos.execute().getItems();
-
-            if (videoList != null) {
-                prettyPrint(videoList.iterator(), youTubeDto);
-            }
-
-        } catch (GoogleJsonResponseException e) {
-            System.err.println("There was a service error: " + e.getDetails().getCode() + " : "
-                    + e.getDetails().getMessage());
-        } catch (IOException e) {
-            System.err.println("There was an IO error: " + e.getCause() + " : " + e.getMessage());
-        } catch (Throwable t) {
-            t.printStackTrace();
-        }
-
-        return youTubeDto;
-    }
-
-    @Override
-    public List<PlaylistItem> getlist() {
+    //    @GetMapping("/test")
+//    @Scheduled(cron = "0 0/10 * * * *") // 매 10분마다 실행
+    @Scheduled(cron = "0 0 12 * * *") //12:00 마다 실행
+    public void youtubeScheduler() throws Exception{
 
 
-
+        System.out.println("youtubeScheduler start.");
         List<PlaylistItem> playlistItemList=new ArrayList<PlaylistItem>();
 
 
         try {
+            System.out.println("youtubeScheduler try 문");
             youtube = new YouTube.Builder(HTTP_TRANSPORT, JSON_FACTORY, new HttpRequestInitializer() {
                 public void initialize(HttpRequest request) throws IOException {
                 }
@@ -157,6 +91,7 @@ public class YoutubeService implements YoutubeProvider {
 
 //            prettyPrint(playlistItemList.size(),playlistItemList.iterator());
 
+            System.out.println("youtubeScheduler save 문");
             saveYoutube(playlistItemList.size(),playlistItemList.iterator());
 //
 //            if (playlistItemList != null) {
@@ -166,24 +101,29 @@ public class YoutubeService implements YoutubeProvider {
         } catch (GoogleJsonResponseException e) {
             System.err.println("There was a service error: " + e.getDetails().getCode() + " : "
                     + e.getDetails().getMessage());
+            logger.error("There was a service error: " + e.getDetails().getCode() + " : "
+                    + e.getDetails().getMessage());
         } catch (IOException e) {
             System.err.println("There was an IO error: " + e.getCause() + " : " + e.getMessage());
+            logger.error("There was an IO error: " + e.getCause() + " : " + e.getMessage());
         } catch (Throwable t) {
             t.printStackTrace();
         }
 
 
-        return playlistItemList;
+//        return playlistItemList;
+
     }
-
-
-    //@Scheduled(cron="0 0 16 26 * *")
     public void saveYoutube(int size, Iterator<PlaylistItem> playlistEntries) throws Exception{
+        logger.info("=============================================================");
+        logger.info("\t\tTotal Videos Uploaded: " + size);
+        logger.info("=============================================================\n");
         System.out.println("=============================================================");
         System.out.println("\t\tTotal Videos Uploaded: " + size);
         System.out.println("=============================================================\n");
 
         List<YoutubeDTO> youtubeDTOList=new ArrayList<YoutubeDTO>();
+        try{
         while (playlistEntries.hasNext()) {
             PlaylistItem playlistItem = playlistEntries.next();
             YoutubeDTO youtubeDTO=new YoutubeDTO();
@@ -201,22 +141,37 @@ public class YoutubeService implements YoutubeProvider {
             logger.info("video title : "+youtubeDTO.getTitle());
             logger.info("video thumbnail : "+youtubeDTO.getThumbnailPath());
             logger.info("video playUrl : "+youtubeDTO.getPlayUrl());
+        }}catch (Exception e){
+            System.err.println("There was an IO error: " + e.getCause() + " : " + e.getMessage());
+            logger.error("There was an IO error: " + e.getCause() + " : " + e.getMessage());
         }
-        youtubeDAO.saveYoutube(youtubeDTOList);
+        youtubeDAO.saveYoutubeScheduled(youtubeDTOList);
     }
-    public void saveYoutube(List<PlaylistItem> playlistItems) throws Exception{
 
-//        if(boardDTO.getBoardseq()==0) // 신규
-//        {
-//            boardDTO.setProgramseq(0);
-//            boardDTO.setDeleteYn("N");
-//            boardDAO.saveBoard(boardDTO);
-//        }
-//        else //수정
-//        {
-//            boardDAO.updateBoard(boardDTO);
-//        }
-//        youtubeDAO.saveYoutube(playlistItems);
+    /*@Scheduled(cron="0 0 16 26 * *") // 매 1분마다 실행
+    public void youtubeApiCall() throws IOException {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+        Date now=new Date();
+        String strDate=sdf.format(now);
 
-    }
+        String apiUrl="https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLjUVzlcpeN4R7L-EPRiek8ua2wugUo76V&maxResults=50&key=AIzaSyArnbKYeK6OYxJ3DVK9SxGb5hlBygGDFFU";
+        URL url=new URL(apiUrl);
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+
+        int resCode = conn.getResponseCode();
+
+        System.out.println(resCode);
+        System.out.println(conn.getResponseMessage());
+        System.out.println(conn.getContent().toString());
+
+        Object result = conn.getContent();
+        int ch;
+        while((ch=((InputStream)result).read()) != -1) {
+            System.out.print((char) ch);
+        }
+
+//        log.info("now: "+strDate);
+//        log.info("youtube api call 결과 : "+result.toString());
+
+    }*/
 }

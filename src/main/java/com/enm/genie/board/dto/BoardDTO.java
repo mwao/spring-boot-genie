@@ -22,4 +22,5 @@ public class BoardDTO {
     private LocalDateTime updateDate;
 
     private String updateDateStr;
+
 }

@@ -1,25 +1,25 @@
-20221214 11:45:15.891 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
-20221214 11:45:15.894 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
-20221214 11:45:16.432 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http) 
-20221214 11:45:16.437 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"] 
-20221214 11:45:16.437 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
-20221214 11:45:16.437 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
-20221214 11:45:16.475 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
-20221214 11:45:16.475 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 581 ms 
-20221214 11:45:16.704 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
-20221214 11:45:16.740 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
-20221214 11:45:17.044 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
-20221214 11:45:17.058 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
-20221214 11:45:17.067 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"] 
-20221214 11:45:17.078 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path '' 
-20221214 11:53:38.665 [http-nio-8080-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
-20221214 11:53:38.666 [http-nio-8080-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
-20221214 11:53:38.673 [http-nio-8080-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 7 ms 
-20221214 11:53:57.477 [http-nio-8080-exec-2] INFO  [HikariDataSource:110] - HikariPool-1 - Starting... 
-20221214 11:53:58.096 [http-nio-8080-exec-2] INFO  [HikariDataSource:123] - HikariPool-1 - Start completed. 
-20221214 15:14:00.395 [http-nio-8080-exec-8] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
-20221214 15:14:00.402 [http-nio-8080-exec-8] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
-20221214 15:14:01.882 [http-nio-8080-exec-2] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
-20221214 15:14:01.882 [http-nio-8080-exec-2] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
-20221214 15:14:03.013 [http-nio-8080-exec-5] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
-20221214 15:14:03.013 [http-nio-8080-exec-5] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221221 09:04:15.385 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+20221221 09:04:15.389 [restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+20221221 09:04:15.997 [restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http) 
+20221221 09:04:16.002 [restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"] 
+20221221 09:04:16.002 [restartedMain] INFO  [StandardService:173] - Starting service [Tomcat] 
+20221221 09:04:16.002 [restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.36] 
+20221221 09:04:16.037 [restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext 
+20221221 09:04:16.037 [restartedMain] INFO  [ServletWebServerApplicationContext:285] - Root WebApplicationContext: initialization completed in 648 ms 
+20221221 09:04:16.271 [restartedMain] INFO  [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+20221221 09:04:16.307 [restartedMain] INFO  [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html] 
+20221221 09:04:16.632 [restartedMain] INFO  [ThreadPoolTaskScheduler:181] - Initializing ExecutorService 'taskScheduler' 
+20221221 09:04:16.652 [restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729 
+20221221 09:04:16.663 [restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"] 
+20221221 09:04:16.673 [restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path '' 
+20221221 09:23:51.654 [http-nio-8080-exec-1] INFO  [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+20221221 09:23:51.655 [http-nio-8080-exec-1] INFO  [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet' 
+20221221 09:23:51.663 [http-nio-8080-exec-1] INFO  [DispatcherServlet:547] - Completed initialization in 8 ms 
+20221221 09:23:54.548 [http-nio-8080-exec-2] INFO  [HikariDataSource:110] - HikariPool-1 - Starting... 
+20221221 09:23:54.783 [http-nio-8080-exec-2] INFO  [HikariDataSource:123] - HikariPool-1 - Start completed. 
+20221221 09:23:55.467 [http-nio-8080-exec-7] ERROR [BoardController:48] - error 테스트 : com.enm.genie.board.controller.BoardController 
+20221221 09:23:55.468 [http-nio-8080-exec-7] WARN  [BoardController:49] - warn 테스트 : com.enm.genie.board.controller.BoardController 
+20221221 09:24:57.485 [SpringContextShutdownHook] INFO  [ThreadPoolTaskScheduler:218] - Shutting down ExecutorService 'taskScheduler' 
+20221221 09:24:57.490 [SpringContextShutdownHook] INFO  [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+20221221 09:24:57.490 [SpringContextShutdownHook] INFO  [HikariDataSource:350] - HikariPool-1 - Shutdown initiated... 
+20221221 09:24:57.496 [SpringContextShutdownHook] INFO  [HikariDataSource:352] - HikariPool-1 - Shutdown completed. 

@@ -28,6 +28,24 @@ public class ClipController {
     @GetMapping("/page")
     public PageInfo<ClipDTO> findPage(HttpServletRequest request) throws Exception{
         PageHelper.startPage(request);
-        return PageInfo.of(clipService.getClipList());
+        System.out.println(request.getParameter("pageNum"));
+        System.out.println(request.getParameter("pageSize"));
+        System.out.println(request.getParameter("programseq"));
+//        System.out.println(request.getParameterValues());
+        if(request.getParameter("programseq")!=null){
+            int programseq= Integer.parseInt(request.getParameter("programseq"));
+            return PageInfo.of(clipService.getClipList(programseq));
+
+        }else{
+            return PageInfo.of(clipService.getClipList());
+
+        }
+//        return PageInfo.of(clipService.getClipList());
+    }
+    @GetMapping("/pagetest")
+    public PageInfo<ClipDTO> findPageDTO(ClipDTO clipDTO) throws Exception{
+
+
+        return PageInfo.of(clipService.getClipListDTO(clipDTO));
     }
 }

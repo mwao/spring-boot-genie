@@ -21,5 +21,16 @@
         </if>
 
     </select>
+    <select id="getClipListDTO" parameterType="com.enm.genie.clip.dto.ClipDTO" resultType="com.enm.genie.clip.dto.ClipDTO">
+        select
+        *
+        FROM genie_clip
+        <choose>
+            <when test="programseq != null and clipType != null">   WHERE programseq = #{programseq} and clip_type=#{clipType}</when>
+            <when test="clipType != null">   WHERE clip_type=#{clipType}</when>
+            <when test="programseq != null ">   WHERE programseq = #{programseq} </when>
+            <otherwise> WHERE 1=1</otherwise>
+        </choose>
+    </select>
 
 </mapper>

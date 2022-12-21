@@ -1,3 +1,1 @@
-[2022-12-14 15:14:00:12524838][http-nio-8080-exec-8] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
-[2022-12-14 15:14:01:12526318][http-nio-8080-exec-2] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
-[2022-12-14 15:14:03:12527449][http-nio-8080-exec-5] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController
+[2022-12-21 09:23:55:1180493][http-nio-8080-exec-7] WARN  c.e.g.b.controller.BoardController - warn 테스트 : com.enm.genie.board.controller.BoardController

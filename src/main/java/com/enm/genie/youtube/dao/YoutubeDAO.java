@@ -10,4 +10,6 @@ public interface YoutubeDAO {
     // youtube playlistitem 등록
 //    void saveYoutube(List<PlaylistItem> playlistItems) throws Exception;
     void saveYoutube(List<YoutubeDTO> youtubeDTOS) throws Exception;
+
+    void saveYoutubeScheduled(List<YoutubeDTO> youtubeDTOS) throws Exception;
 }

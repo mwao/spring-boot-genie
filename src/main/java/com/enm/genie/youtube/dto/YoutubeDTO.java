@@ -16,6 +16,7 @@ public class YoutubeDTO {
     private String playUrl; //동영상 재생 url
 
     private String description;// 동영상 상세설명
+    private String clipType;// 동영상 타입
 
 //    @Builder(toBuilder = true)
 //    public YoutubeDTO(String title, String thumbnailPath, String videoId) {
